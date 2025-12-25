@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .map-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #e6f2ff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        svg {
+            width: 100%;
+            height: auto;
+            border: 2px solid #333;
+        }
+        .country {
+            fill: #87ceeb;
+            stroke: #333;
+            stroke-width: 1;
+            cursor: pointer;
+        }
+        .country:hover {
+            fill: #4a9eff;
+        }
+    </style>
+</head>
+<body>
+    <h1>World Map</h1>
+    <div class="map-container">
+        <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+            <!-- Simple world map representation with basic shapes -->
+            <rect class="country" x="50" y="150" width="120" height="80" title="North America"/>
+            <rect class="country" x="50" y="280" width="100" height="100" title="South America"/>
+            <rect class="country" x="250" y="100" width="150" height="120" title="Europe"/>
+            <rect class="country" x="250" y="280" width="180" height="150" title="Africa"/>
+            <rect class="country" x="500" y="80" width="200" height="140" title="Asia"/>
+            <rect class="country" x="550" y="280" width="100" height="90" title="Southeast Asia"/>
+            <rect class="country" x="750" y="200" width="80" height="100" title="Australia"/>
+        </svg>
+    </div>
+</body>
+</html>
