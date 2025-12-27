@@ -1,0 +1,19 @@
+{
+  "Philippines": {
+    "2020": {
+      "population": 109581078,
+      "GDP": 367.36,
+      "lifestyle": "Urbanizing rapidly, with growing tech adoption"
+    },
+    "2021": {
+      "population": 111046913,
+      "GDP": 394.09,
+      "lifestyle": "Recovery from pandemic, increased digital services"
+    },
+    "2022": {
+      "population": 113880328,
+      "GDP": 404.28,
+      "lifestyle": "Expanding middle class, strong remittance economy"
+    }
+  }
+}

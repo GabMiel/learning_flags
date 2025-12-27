@@ -1,0 +1,14 @@
+{
+  "Japan": {
+    "2020": {
+      "population": 125800000,
+      "GDP": 5065.6,
+      "lifestyle": "High-tech society, aging population"
+    },
+    "2021": {
+      "population": 125500000,
+      "GDP": 4930.0,
+      "lifestyle": "Continued innovation, focus on sustainability"
+    }
+  }
+}

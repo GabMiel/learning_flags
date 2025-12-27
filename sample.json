@@ -1,9 +1,0 @@
-{
-  "Philippines": {
-    "2020": { "population": 109581078, "GDP": 367.36, "lifestyle": "Urbanizing rapidly" },
-    "2021": { "population": 111046913, "GDP": 394.09, "lifestyle": "Recovery from pandemic" }
-  },
-  "Japan": {
-    "2020": { "population": 125800000, "GDP": 5065.6, "lifestyle": "High-tech society" }
-  }
-}

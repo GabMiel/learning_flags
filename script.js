@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // === Sidebar toggle ===
+  const profileBtn = document.getElementById("profile-btn");
+  const sidebar = document.getElementById("sidebar");
+
+  profileBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("show");
+  });
+
+  // === Flag modal logic ===
   const flags = document.querySelectorAll(".flag");
   const modal = document.getElementById("modal");
   const closeBtn = document.getElementById("close");
@@ -22,14 +31,16 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.add("hidden");
   });
 
-  // Fetch data (for now, from local JSON)
+  // Fetch data (currently from local JSON, later from backend API)
   fetchBtn.addEventListener("click", () => {
     const year = document.getElementById("year").value;
+    const fileName = selectedCountry.toLowerCase() + ".json";
 
-    // Later: replace with API call like:
-    // fetch(`https://your-api.com/country/${selectedCountry}?year=${year}`)
-    fetch("data/sample.json")
-      .then(res => res.json())
+    fetch(`data/${fileName}`)
+      .then(res => {
+        if (!res.ok) throw new Error("File not found");
+        return res.json();
+      })
       .then(data => {
         if (data[selectedCountry] && data[selectedCountry][year]) {
           const entry = data[selectedCountry][year];
@@ -41,6 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           infoDiv.innerHTML = `<p>No data available for ${year}.</p>`;
         }
+      })
+      .catch(err => {
+        infoDiv.innerHTML = `<p>Error loading data: ${err.message}</p>`;
       });
   });
 });
