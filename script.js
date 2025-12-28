@@ -57,4 +57,41 @@ document.addEventListener("DOMContentLoaded", () => {
         infoDiv.innerHTML = `<p>Error loading data: ${err.message}</p>`;
       });
   });
+
+  // === Search bar ===
+  const searchInput = document.getElementById("search");
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      const term = searchInput.value.toLowerCase();
+      document.querySelectorAll(".flag").forEach(flag => {
+        const country = flag.dataset.country.toLowerCase();
+        flag.style.display = country.includes(term) ? "block" : "none";
+      });
+    });
+  }
+
+  // === Dark mode toggle (sidebar item) ===
+  const toggle = document.getElementById("dark-mode-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+    });
+  }
+
+  // Apply saved theme on load
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+
+  // === Achievements logic ===
+  let xp = parseInt(localStorage.getItem("xp")) || 0;
+  function checkAchievements() {
+    const list = document.getElementById("achievements-list");
+    if (!list) return;
+    list.innerHTML = "";
+    if (xp >= 100) list.innerHTML += "<li>🏆 Beginner Explorer</li>";
+    if (xp >= 500) list.innerHTML += "<li>🌍 World Master</li>";
+  }
+  checkAchievements();
 });

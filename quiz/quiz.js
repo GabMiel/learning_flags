@@ -35,6 +35,7 @@ function loadQuestion() {
 function checkAnswer(selected) {
   if (selected === questions[current].answer) {
     score++;
+    addXP(10); // ✅ gain XP
   }
   nextBtn.disabled = false;
 }
@@ -55,3 +56,17 @@ nextBtn.addEventListener("click", () => {
 // Initialize
 loadQuestion();
 nextBtn.disabled = true;
+
+let xp = parseInt(localStorage.getItem("xp")) || 0;
+
+function addXP(points) {
+  xp += points;
+  localStorage.setItem("xp", xp);
+  updateProfileXP();
+  checkAchievements();
+}
+
+function updateProfileXP() {
+  const xpElements = document.querySelectorAll(".xp");
+  xpElements.forEach(el => el.textContent = `XP: ${xp}`);
+}
