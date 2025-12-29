@@ -6,65 +6,69 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="main-header">
-    <div class="logo">🌍 Flags Explorer</div>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="quiz/quiz.html">Quiz</a>
-      <button id="profile-btn" class="profile-btn">Profile</button>
-    </nav>
-  </header>
 
-  <!-- Sidebar -->
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-header">
-      <img src="https://via.placeholder.com/60" alt="Profile Logo" class="sidebar-logo">
-      <h2>Gabriel</h2>
-      <p class="xp">XP: 120</p>
-    </div>
+<!-- HEADER -->
+<header class="main-header">
+  <div class="logo">🌍 Flags Explorer</div>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="quiz/quiz.html">Quiz</a>
+    <button id="profile-btn" class="profile-btn">Profile</button>
+  </nav>
+</header>
 
-    <nav class="sidebar-nav">
-      <a href="index.html" class="sidebar-item">🏠 Home</a>
-      <a href="quiz/quiz.html" class="sidebar-item">🎯 Quiz</a>
-      <a href="#achievements" class="sidebar-item">🏆 Achievements</a>
-      <button id="dark-mode-toggle" class="sidebar-item">🌙 Toggle Theme</button>
-    </nav>
-  </aside>
-
-  <!-- Main Title -->
-  <h1>🌍 World Flags Explorer</h1>
-
-  <!-- Search Bar -->
-  <div class="search-container">
-    <input type="text" id="search" placeholder="Search country...">
+<!-- SIDEBAR -->
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <img src="https://via.placeholder.com/70" class="sidebar-logo" alt="Profile">
+    <h2>Gabriel</h2>
+    <p class="xp">XP: 120</p>
   </div>
 
-  <!-- Flag Grid -->
-  <div class="flag-grid">
-    <div class="flag" data-country="Philippines">
-      <img src="https://flagcdn.com/ph.svg" alt="Philippines Flag">
-      <p>Philippines</p>
-    </div>
-    <div class="flag" data-country="Japan">
-      <img src="https://flagcdn.com/jp.svg" alt="Japan Flag">
-      <p>Japan</p>
-    </div>
-    <!-- Add more flags here -->
-  </div>
+  <nav class="sidebar-nav">
+    <a href="index.html" class="sidebar-item">🏠 Home</a>
+    <a href="quiz/quiz.html" class="sidebar-item">🎯 Quiz</a>
+    <a href="#" class="sidebar-item">🏆 Achievements</a>
+    <button id="dark-mode-toggle" class="sidebar-item">🌙 Toggle Theme</button>
+  </nav>
+</aside>
 
-  <!-- Modal -->
-  <div id="modal" class="modal hidden">
-    <div class="modal-content">
-      <span id="close">&times;</span>
-      <h2 id="modal-title"></h2>
-      <label for="year">Choose Year:</label>
-      <input type="number" id="year" min="1900" max="2025" value="2020">
-      <button id="fetch-data">OK</button>
-      <div id="country-info"></div>
+<!-- MAIN -->
+<h1 class="page-title">World Flags Explorer</h1>
+
+<div class="search-container">
+  <input type="text" id="search" placeholder="Search country...">
+</div>
+
+<!-- COUNTRY GRID -->
+<div class="country-grid">
+
+  <div class="country-card" data-country="Philippines"
+    style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
+    <div class="country-label">
+      <img src="https://flagcdn.com/w40/ph.png">
+      Philippines
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <div class="country-card" data-country="Japan"
+    style="background-image:url('https://images.unsplash.com/photo-1549693578-d683be217e58');">
+    <div class="country-label">
+      <img src="https://flagcdn.com/w40/jp.png">
+      Japan
+    </div>
+  </div>
+
+  <div class="country-card" data-country="France"
+    style="background-image:url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34');">
+    <div class="country-label">
+      <img src="https://flagcdn.com/w40/fr.png">
+      France
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
