@@ -2,73 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>World Flags Explorer</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Asia – World Flags Explorer</title>
+  <link rel="stylesheet" href="../assets/continents.css">
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="main-header">
-  <div class="logo">🌍 Flags Explorer</div>
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="quiz/quiz.html">Quiz</a>
-    <button id="profile-btn" class="profile-btn">Profile</button>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="logo">🌍 Flags Explorer</div>
+    <nav class="nav-links">
+      <a href="../../index.html">Home</a>
+      <a href="../../quiz/quiz.html">Quiz</a>
+      <button id="profile-btn" class="profile-btn">Profile</button>
+    </nav>
+  </header>
 
-<!-- SIDEBAR -->
-<aside id="sidebar" class="sidebar">
-  <div class="sidebar-header">
-    <img src="https://via.placeholder.com/70" class="sidebar-logo" alt="Profile">
-    <h2>Gabriel</h2>
-    <p class="xp">XP: 120</p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a href="index.html" class="sidebar-item">🏠 Home</a>
-    <a href="quiz/quiz.html" class="sidebar-item">🎯 Quiz</a>
-    <a href="#" class="sidebar-item">🏆 Achievements</a>
-    <button id="dark-mode-toggle" class="sidebar-item">🌙 Toggle Theme</button>
-  </nav>
-</aside>
-
-<!-- MAIN -->
-<h1 class="page-title">World Flags Explorer</h1>
-
-<div class="search-container">
-  <input type="text" id="search" placeholder="Search country...">
-</div>
-
-<!-- COUNTRY GRID -->
-<div class="country-grid">
-
-  <div class="country-card" data-country="Philippines"
-    style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
-    <div class="country-label">
-      <img src="https://flagcdn.com/w40/ph.png">
-      Philippines
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <img src="https://via.placeholder.com/70" class="sidebar-logo" alt="Profile">
+      <h2>Gabriel</h2>
+      <p class="xp">XP: 120</p>
     </div>
-  </div>
 
-  <div class="country-card" data-country="Japan"
-    style="background-image:url('https://images.unsplash.com/photo-1549693578-d683be217e58');">
-    <div class="country-label">
-      <img src="https://flagcdn.com/w40/jp.png">
-      Japan
+    <nav class="sidebar-nav">
+      <a href="../../index.html" class="sidebar-item">🏠 Home</a>
+      <a href="../../quiz/quiz.html" class="sidebar-item">🎯 Quiz</a>
+      <a href="#achievements" class="sidebar-item">🏆 Achievements</a>
+      <button id="dark-mode-toggle" class="sidebar-item">🌙 Toggle Theme</button>
+    </nav>
+
+    <div id="achievements" class="achievements">
+      <h3>Achievements</h3>
+      <ul id="achievements-list"></ul>
     </div>
-  </div>
+  </aside>
 
-  <div class="country-card" data-country="France"
-    style="background-image:url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34');">
-    <div class="country-label">
-      <img src="https://flagcdn.com/w40/fr.png">
-      France
+  <!-- MAIN -->
+  <main>
+    <h1 class="page-title">Explore Asia</h1>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search Asian country...">
     </div>
-  </div>
 
-</div>
+    <!-- COUNTRY GRID -->
+    <div class="country-grid">
 
-<script src="script.js"></script>
+      <div class="country-card" data-country="Philippines"
+        style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
+        <div class="country-label">
+          <img src="https://flagcdn.com/w40/ph.png" alt="Philippines Flag">
+          <span>Philippines</span>
+        </div>
+      </div>
+
+      <div class="country-card" data-country="Japan"
+        style="background-image:url('https://images.unsplash.com/photo-1549693578-d683be217e58');">
+        <div class="country-label">
+          <img src="https://flagcdn.com/w40/jp.png" alt="Japan Flag">
+          <span>Japan</span>
+        </div>
+      </div>
+
+      <div class="country-card" data-country="India"
+        style="background-image:url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad');">
+        <div class="country-label">
+          <img src="https://flagcdn.com/w40/in.png" alt="India Flag">
+          <span>India</span>
+        </div>
+      </div>
+
+      <!-- Add more Asian countries here -->
+
+    </div>
+  </main>
+
+  <script src="../../script.js"></script>
 </body>
 </html>

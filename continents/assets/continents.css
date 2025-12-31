@@ -1,0 +1,168 @@
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004080;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.profile-btn {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.nav-links a:hover,
+.profile-btn:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  background: #00264d;
+  color: white;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: block;
+  padding: 10px 15px;
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s;
+  text-align: left;
+}
+
+.sidebar-item:hover {
+  background: #004080;
+}
+
+.sidebar-item.active {
+  background: #0066cc;
+  font-weight: bold;
+}
+
+/* Achievements inside sidebar */
+.achievements {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.achievements h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  margin: 5px 0;
+}
+
+/* Search bar */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#search {
+  width: 70%;
+  max-width: 600px;
+  padding: 14px 18px;
+  font-size: 1.2em;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Continent grid */
+.continent-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px;
+}
+
+.continent {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  width: 180px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.continent:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.continent img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.continent p {
+  margin-top: 10px;
+  font-weight: bold;
+}
