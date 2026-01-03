@@ -7,55 +7,24 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="main-header">
-    <div class="logo">🌍 Flags Explorer</div>
-    <nav class="nav-links">
-      <a href="../../index.html">Home</a>
-      <a href="../../quiz/quiz.html">Quiz</a>
-      <button id="profile-btn" class="profile-btn">Profile</button>
-    </nav>
-  </header>
 
-  <!-- SIDEBAR -->
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-header">
-      <img src="https://via.placeholder.com/70" class="sidebar-logo" alt="Profile">
-      <h2>Gabriel</h2>
-      <p class="xp">XP: 120</p>
+  <main class="page-container">
+    <!-- LEFT BUTTON -->
+    <button class="arrow-btn left" id="prevBtn">❮</button>
+
+    <!-- SLIDER VIEWPORT -->
+    <div class="slider-viewport">
+      <div class="slider-track" id="countryGrid"></div>
     </div>
 
-    <nav class="sidebar-nav">
-      <a href="../../index.html" class="sidebar-item">🏠 Home</a>
-      <a href="../../quiz/quiz.html" class="sidebar-item">🎯 Quiz</a>
-      <a href="#achievements" class="sidebar-item">🏆 Achievements</a>
-      <button id="dark-mode-toggle" class="sidebar-item">🌙 Toggle Theme</button>
-    </nav>
+    <!-- RIGHT BUTTON -->
+    <button class="arrow-btn right" id="nextBtn">❯</button>
 
-    <div id="achievements" class="achievements">
-      <h3>Achievements</h3>
-      <ul id="achievements-list"></ul>
-    </div>
-  </aside>
-
-  <!-- MAIN -->
-  <main>
-    <h1 class="page-title">Explore Asia</h1>
-
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input type="text" id="search" placeholder="Search Asian country...">
-    </div>
-
-    <!-- COUNTRY GRID (JS will populate this) -->
-    <div class="country-grid" id="countryGrid"></div>
-
+    <!-- PAGE DOTS -->
+    <div class="page-dots" id="pageDots"></div>
   </main>
 
-  <!-- GLOBAL SCRIPT -->
   <script src="../../script.js"></script>
-
-  <!-- ASIA PAGE SCRIPT -->
   <script src="asia.js"></script>
 
 </body>

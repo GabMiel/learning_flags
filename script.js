@@ -13,41 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* ======================
-     LOAD ASIA COUNTRIES
-  ====================== */
-  const grid = document.getElementById("countryGrid");
-
-  let cards = []; // will hold dynamically created cards
-
-  if (grid) {
-    fetch("asia.json")
-      .then(res => res.json())
-      .then(data => {
-        data.sort((a, b) => a.name.localeCompare(b.name));
-
-        data.forEach(country => {
-          const card = document.createElement("div");
-          card.className = "country-card";
-          card.dataset.country = country.name;
-          card.style.backgroundImage = `url('${country.image}')`;
-
-          card.innerHTML = `
-            <div class="country-label">
-              <img src="https://flagcdn.com/w40/${country.flag}.png" alt="${country.name} flag">
-              <span>${country.name}</span>
-            </div>
-          `;
-
-          grid.appendChild(card);
-        });
-
-        cards = document.querySelectorAll(".country-card");
-      })
-      .catch(err => console.error("Failed to load asia.json", err));
-  }
-
-  /* ======================
-     COUNTRY CARD MODAL (EVENT DELEGATION)
+     COUNTRY CARD MODAL
   ====================== */
   const modal = document.getElementById("modal");
   const closeBtn = document.getElementById("close");
@@ -74,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* ======================
-     FETCH COUNTRY DATA (YEAR)
+     FETCH COUNTRY DATA
   ====================== */
   if (fetchBtn) {
     fetchBtn.addEventListener("click", () => {
@@ -104,22 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(err => {
           infoDiv.innerHTML = `<p>Error loading data: ${err.message}</p>`;
         });
-    });
-  }
-
-  /* ======================
-     SEARCH FILTER (DYNAMIC)
-  ====================== */
-  const searchInput = document.getElementById("search");
-
-  if (searchInput) {
-    searchInput.addEventListener("input", () => {
-      const term = searchInput.value.toLowerCase();
-
-      document.querySelectorAll(".country-card").forEach(card => {
-        const country = card.dataset.country.toLowerCase();
-        card.style.display = country.includes(term) ? "block" : "none";
-      });
     });
   }
 
