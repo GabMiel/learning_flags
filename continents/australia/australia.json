@@ -1,0 +1,16 @@
+[
+  { "name": "Australia", "flag": "au", "image": "" },
+  { "name": "Fiji", "flag": "fj", "image": "" },
+  { "name": "Kiribati", "flag": "ki", "image": "" },
+  { "name": "Marshall Islands", "flag": "mh", "image": "" },
+  { "name": "Micronesia", "flag": "fm", "image": "" },
+  { "name": "Nauru", "flag": "nr", "image": "" },
+  { "name": "New Zealand", "flag": "nz", "image": "" },
+  { "name": "Palau", "flag": "pw", "image": "" },
+  { "name": "Papua New Guinea", "flag": "pg", "image": "" },
+  { "name": "Samoa", "flag": "ws", "image": "" },
+  { "name": "Solomon Islands", "flag": "sb", "image": "" },
+  { "name": "Tonga", "flag": "to", "image": "" },
+  { "name": "Tuvalu", "flag": "tv", "image": "" },
+  { "name": "Vanuatu", "flag": "vu", "image": "" }
+]

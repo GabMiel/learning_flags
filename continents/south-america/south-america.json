@@ -1,0 +1,14 @@
+[
+  { "name": "Argentina", "flag": "ar", "image": "" },
+  { "name": "Bolivia", "flag": "bo", "image": "" },
+  { "name": "Brazil", "flag": "br", "image": "" },
+  { "name": "Chile", "flag": "cl", "image": "" },
+  { "name": "Colombia", "flag": "co", "image": "" },
+  { "name": "Ecuador", "flag": "ec", "image": "" },
+  { "name": "Guyana", "flag": "gy", "image": "" },
+  { "name": "Paraguay", "flag": "py", "image": "" },
+  { "name": "Peru", "flag": "pe", "image": "" },
+  { "name": "Suriname", "flag": "sr", "image": "" },
+  { "name": "Uruguay", "flag": "uy", "image": "" },
+  { "name": "Venezuela", "flag": "ve", "image": "" }
+]

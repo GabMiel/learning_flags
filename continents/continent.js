@@ -2,7 +2,7 @@ const CARDS_PER_PAGE = 12;
 let currentPage = 0;
 let countries = [];
 
-const track = document.getElementById("countryGrid"); // This is now the .slider-track
+const track = document.getElementById("countryGrid");
 const dotsContainer = document.getElementById("pageDots");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
@@ -10,7 +10,12 @@ const nextBtn = document.getElementById("nextBtn");
 let startX = 0;
 let isDragging = false;
 
-fetch("asia.json")
+// Detect continent from <body data-continent="">
+const continent = document.body.dataset.continent;
+const jsonFile = `${continent}.json`;
+
+// Fetch the right JSON file
+fetch(jsonFile)
   .then(res => res.json())
   .then(data => {
     countries = data.sort((a, b) => a.name.localeCompare(b.name));
@@ -21,17 +26,13 @@ fetch("asia.json")
 
 function buildPages() {
   track.innerHTML = "";
-
   const pages = Math.ceil(countries.length / CARDS_PER_PAGE);
 
   for (let p = 0; p < pages; p++) {
     const page = document.createElement("div");
     page.className = "slider-page";
 
-    const slice = countries.slice(
-      p * CARDS_PER_PAGE,
-      (p + 1) * CARDS_PER_PAGE
-    );
+    const slice = countries.slice(p * CARDS_PER_PAGE, (p + 1) * CARDS_PER_PAGE);
 
     slice.forEach(country => {
       const card = document.createElement("div");
