@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country – World Flags Explorer</title>
+  <!-- ✅ Use a dedicated stylesheet for country pages -->
+  <link rel="stylesheet" href="country.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="logo">🌍 World Flags Explorer</div>
+    <!-- ✅ Close button controlled by JS -->
+    <a id="closeBtn" class="close-btn">✖</a>
+  </header>
+
+  <!-- Optional breadcrumb -->
+  <nav id="breadcrumb"></nav>
+
+  <!-- COUNTRY INFO -->
+  <main class="country-page">
+    <h2 id="country-name"></h2>
+    <img id="country-flag" alt="Country Flag">
+    <div id="country-image" class="hero-image"></div>
+
+    <!-- SECTION SLIDER -->
+    <div class="section-container">
+      <h3 id="section-title"></h3>
+      <p id="section-content"></p>
+    </div>
+
+    <!-- NAVIGATION BUTTONS -->
+    <div class="nav-buttons">
+      <button id="prevSection">❮</button>
+      <button id="nextSection">❯</button>
+    </div>
+  </main>
+
+  <script src="country.js"></script>
+</body>
+</html>

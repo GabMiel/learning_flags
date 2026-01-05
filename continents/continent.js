@@ -47,6 +47,12 @@ function buildPages() {
         </div>
       `;
 
+      // ✅ Click handler to go to country.html
+      card.addEventListener("click", () => {
+        const encodedName = encodeURIComponent(country.name);
+        window.location.href = `../../country/country.html?name=${encodedName}&continent=${continent}`;
+      });
+
       page.appendChild(card);
     });
 

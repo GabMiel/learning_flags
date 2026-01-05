@@ -1,0 +1,47 @@
+{
+  "name": "Afghanistan",
+  "flag": "af",
+  "image": "https://images.unsplash.com/photo-1603974372039-adc49044b6bd",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Afghanistan is a landlocked country located at the crossroads of Central and South Asia, known for its rugged terrain and rich cultural heritage."
+    },
+    {
+      "title": "Capital City",
+      "content": "Kabul is the capital and largest city of Afghanistan, serving as its political and economic center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Afghan afghani (AFN)."
+    },
+    {
+      "title": "Language",
+      "content": "The main languages spoken are Dari and Pashto, both of which are official languages."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include Kabuli pulao, mantu (dumplings), and kebabs, often served with naan bread."
+    },
+    {
+      "title": "Geography",
+      "content": "Afghanistan features mountainous regions like the Hindu Kush, deserts, and fertile valleys, with a continental climate."
+    },
+    {
+      "title": "History",
+      "content": "Afghanistan has a long and complex history, from ancient Silk Road trade to modern geopolitical struggles."
+    },
+    {
+      "title": "Culture",
+      "content": "Afghan culture is deeply rooted in poetry, music, and hospitality, with strong tribal and family traditions."
+    },
+    {
+      "title": "Tourism",
+      "content": "While tourism is limited due to security concerns, historical sites like the Buddhas of Bamiyan and Herat Citadel are notable."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Afghanistan is one of the few countries where Buzkashi, a traditional horseback sport involving a goat carcass, is played competitively."
+    }
+  ]
+}
