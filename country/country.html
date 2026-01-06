@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Country – World Flags Explorer</title>
-  <!-- ✅ Use a dedicated stylesheet for country pages -->
-  <link rel="stylesheet" href="country.css">
+  <link rel="stylesheet" href="country.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="main-header">
-    <div class="logo">🌍 World Flags Explorer</div>
-    <!-- ✅ Close button controlled by JS -->
-    <a id="closeBtn" class="close-btn">✖</a>
-  </header>
+  <!-- Breadcrumb -->
+  <nav id="breadcrumb" class="breadcrumb"></nav>
 
-  <!-- Optional breadcrumb -->
-  <nav id="breadcrumb"></nav>
-
-  <!-- COUNTRY INFO -->
   <main class="country-page">
-    <h2 id="country-name"></h2>
-    <img id="country-flag" alt="Country Flag">
-    <div id="country-image" class="hero-image"></div>
+    <section class="country-container">
 
-    <!-- SECTION SLIDER -->
-    <div class="section-container">
-      <h3 id="section-title"></h3>
-      <p id="section-content"></p>
-    </div>
+      <!-- Header -->
+      <header class="country-header">
+        <h1 id="country-name"></h1>
+        <img id="country-flag" alt="Country Flag">
+      </header>
 
-    <!-- NAVIGATION BUTTONS -->
-    <div class="nav-buttons">
-      <button id="prevSection">❮</button>
-      <button id="nextSection">❯</button>
-    </div>
+      <!-- Info Grid -->
+      <div class="info-grid">
+
+        <!-- Cards injected via JS -->
+        <div id="cards"></div>
+
+        <!-- Map Card -->
+        <div class="map-card">
+          <h3>Location</h3>
+          <img id="map-image" alt="Country Map">
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="nav-buttons">
+        <button id="prevSection">❮</button>
+        <button id="nextSection">❯</button>
+      </div>
+
+    </section>
   </main>
 
   <script src="country.js"></script>

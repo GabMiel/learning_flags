@@ -2,15 +2,28 @@ const params = new URLSearchParams(window.location.search);
 const countryName = params.get("name");
 const continent = params.get("continent");
 
-let currentSection = 0;
-let sections = [];
+let currentIndex = 0;
+const cardsPerPage = 4;
 
-// ✅ Fix: set close button to go back to continent list
-const closeBtn = document.getElementById("closeBtn");
+/* Breadcrumb */
+const breadcrumb = document.getElementById("breadcrumb");
 if (continent) {
-  closeBtn.href = `../continents/${continent}/${continent}.html`;
-} else {
-  closeBtn.href = "../index.html"; // fallback if continent is missing
+  breadcrumb.innerHTML = `
+    <a href="../continents/${continent}/${continent}.html">
+      ← Back to ${continent.charAt(0).toUpperCase() + continent.slice(1)}
+    </a>
+  `;
+}
+
+/* Auto icons based on title */
+function getIcon(title) {
+  title = title.toLowerCase();
+  if (title.includes("capital")) return "🏛️";
+  if (title.includes("currency")) return "💱";
+  if (title.includes("language")) return "🗣️";
+  if (title.includes("population")) return "👥";
+  if (title.includes("religion")) return "🕌";
+  return "📘";
 }
 
 if (countryName && continent) {
@@ -19,47 +32,60 @@ if (countryName && continent) {
 
   fetch(filePath)
     .then(res => {
-      if (!res.ok) throw new Error(`Failed to load ${filePath}`);
+      if (!res.ok) throw new Error("Country not found");
       return res.json();
     })
     .then(country => {
       document.getElementById("country-name").textContent = country.name;
-      document.getElementById("country-flag").src = `https://flagcdn.com/w80/${country.flag}.png`;
-      document.getElementById("country-image").style.backgroundImage = `url('${country.image}')`;
+      document.getElementById("country-flag").src =
+        `https://flagcdn.com/w80/${country.flag}.png`;
 
-      sections = country.sections || [];
-      showSection();
+      /* Map */
+      document.getElementById("map-image").src =
+        `https://flagcdn.com/map.svg?country=${country.flag.toUpperCase()}`;
+
+      const sections = country.sections || [];
+      renderCards(sections);
+
+      document.getElementById("prevSection").onclick = () => {
+        if (currentIndex > 0) {
+          currentIndex -= cardsPerPage;
+          renderCards(sections);
+        }
+      };
+
+      document.getElementById("nextSection").onclick = () => {
+        if (currentIndex + cardsPerPage < sections.length) {
+          currentIndex += cardsPerPage;
+          renderCards(sections);
+        }
+      };
     })
     .catch(err => {
-      document.querySelector(".country-page").innerHTML = `<p style="color:red;">Country data not found.</p>`;
+      document.querySelector(".country-page").innerHTML =
+        `<p style="color:red;">Country data not found.</p>`;
       console.error(err);
     });
 }
 
-function showSection() {
-  const section = sections[currentSection];
-  document.getElementById("section-title").textContent = section?.title || "No Title";
-  document.getElementById("section-content").textContent = section?.content || "No content available.";
+function renderCards(sections) {
+  const container = document.getElementById("cards");
+  container.innerHTML = "";
 
-  document.getElementById("prevSection").style.display = currentSection === 0 ? "none" : "inline-block";
-  document.getElementById("nextSection").style.display = currentSection === sections.length - 1 ? "none" : "inline-block";
-}
+  sections
+    .slice(currentIndex, currentIndex + cardsPerPage)
+    .forEach(section => {
+      const card = document.createElement("div");
+      card.className = "info-card";
 
-document.getElementById("prevSection").addEventListener("click", () => {
-  if (currentSection > 0) {
-    currentSection--;
-    showSection();
-  }
-});
+      card.innerHTML = `
+        <div class="card-icon">${getIcon(section.title)}</div>
+        <div>
+          <h3>${section.title}</h3>
+          <p>${section.content}</p>
+        </div>
+      `;
 
-document.getElementById("nextSection").addEventListener("click", () => {
-  if (currentSection < sections.length - 1) {
-    currentSection++;
-    showSection();
-  }
-});
-
-const breadcrumb = document.getElementById("breadcrumb");
-if (continent) {
-  breadcrumb.innerHTML = `<a href="../continents/${continent}/${continent}.html">← Back to ${continent.charAt(0).toUpperCase() + continent.slice(1)}</a>`;
+      container.appendChild(card);
+    });
 }

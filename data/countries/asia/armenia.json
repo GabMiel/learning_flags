@@ -1,0 +1,47 @@
+{
+  "name": "Armenia",
+  "flag": "am",
+  "image": "https://images.unsplash.com/photo-1589884479071-4c1b5c2d3a3f",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Armenia is a landlocked country in the South Caucasus region, known for its ancient history, mountainous landscapes, and strong cultural identity."
+    },
+    {
+      "title": "Capital City",
+      "content": "Yerevan is the capital and largest city of Armenia, serving as its political, cultural, and economic hub."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Armenian dram (AMD)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Armenian, written in its unique alphabet created in the 5th century."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include khorovats (barbecue), dolma (stuffed grape leaves), lavash (flatbread), and khash, a traditional soup."
+    },
+    {
+      "title": "Geography",
+      "content": "Armenia is a mountainous country with the Lesser Caucasus range, fertile valleys, and Lake Sevan. Mount Ararat, though located in Turkey, is a national symbol visible from Yerevan."
+    },
+    {
+      "title": "History",
+      "content": "Armenia is one of the world’s oldest nations, with roots in the Kingdom of Urartu and the Kingdom of Armenia. It was the first country to adopt Christianity as a state religion in 301 AD."
+    },
+    {
+      "title": "Culture",
+      "content": "Armenian culture emphasizes music, dance, literature, and religious traditions. The Armenian Apostolic Church plays a central role in national identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include ancient monasteries like Geghard and Tatev, the Temple of Garni, Lake Sevan, and the vibrant capital city of Yerevan."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Chess is a national passion in Armenia, and the country has produced several world champion grandmasters."
+    }
+  ]
+}

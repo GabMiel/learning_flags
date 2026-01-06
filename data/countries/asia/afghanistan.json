@@ -5,43 +5,53 @@
   "sections": [
     {
       "title": "Overview",
-      "content": "Afghanistan is a landlocked country located at the crossroads of Central and South Asia, known for its rugged terrain and rich cultural heritage."
+      "content": "Afghanistan is a landlocked country located at the crossroads of Central and South Asia, known for its rugged terrain and rich cultural heritage.",
+      "image": "../assets/icons/overview.png"
     },
     {
       "title": "Capital City",
-      "content": "Kabul is the capital and largest city of Afghanistan, serving as its political and economic center."
+      "content": "Kabul is the capital and largest city of Afghanistan, serving as its political and economic center.",
+      "image": "../assets/icons/capital.png"
     },
     {
       "title": "Currency",
-      "content": "The official currency is the Afghan afghani (AFN)."
+      "content": "The official currency is the Afghan afghani (AFN).",
+      "image": "../assets/icons/currency.png"
     },
     {
       "title": "Language",
-      "content": "The main languages spoken are Dari and Pashto, both of which are official languages."
+      "content": "The main languages spoken are Dari and Pashto, both of which are official languages.",
+      "image": "../assets/icons/language.png"
     },
     {
       "title": "Traditional Food",
-      "content": "Popular dishes include Kabuli pulao, mantu (dumplings), and kebabs, often served with naan bread."
+      "content": "Popular dishes include Kabuli pulao, mantu (dumplings), and kebabs, often served with naan bread.",
+      "image": "../assets/icons/food.png"
     },
     {
       "title": "Geography",
-      "content": "Afghanistan features mountainous regions like the Hindu Kush, deserts, and fertile valleys, with a continental climate."
+      "content": "Afghanistan features mountainous regions like the Hindu Kush, deserts, and fertile valleys, with a continental climate.",
+      "image": "../assets/icons/geography.png"
     },
     {
       "title": "History",
-      "content": "Afghanistan has a long and complex history, from ancient Silk Road trade to modern geopolitical struggles."
+      "content": "Afghanistan has a long and complex history, from ancient Silk Road trade to modern geopolitical struggles.",
+      "image": "../assets/icons/history.png"
     },
     {
       "title": "Culture",
-      "content": "Afghan culture is deeply rooted in poetry, music, and hospitality, with strong tribal and family traditions."
+      "content": "Afghan culture is deeply rooted in poetry, music, and hospitality, with strong tribal and family traditions.",
+      "image": "../assets/icons/culture.png"
     },
     {
       "title": "Tourism",
-      "content": "While tourism is limited due to security concerns, historical sites like the Buddhas of Bamiyan and Herat Citadel are notable."
+      "content": "While tourism is limited due to security concerns, historical sites like the Buddhas of Bamiyan and Herat Citadel are notable.",
+      "image": "../assets/icons/tourism.png"
     },
     {
       "title": "Fun Fact",
-      "content": "Afghanistan is one of the few countries where Buzkashi, a traditional horseback sport involving a goat carcass, is played competitively."
+      "content": "Afghanistan is one of the few countries where Buzkashi, a traditional horseback sport involving a goat carcass, is played competitively.",
+      "image": "../assets/icons/funfact.png"
     }
   ]
 }
