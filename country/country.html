@@ -22,8 +22,8 @@
       <!-- Info Grid -->
       <div class="info-grid">
 
-        <!-- Cards injected via JS -->
-        <div id="cards"></div>
+        <!-- Info Cards -->
+        <div id="cards" class="cards-grid"></div>
 
         <!-- Map Card -->
         <div class="map-card">
@@ -33,13 +33,39 @@
 
       </div>
 
+      <!-- History Timeline -->
+      <section class="history-section">
+        <h2>Historical Timeline</h2>
+
+        <!-- Year buttons -->
+        <div id="year-list" class="year-list"></div>
+
+        <!-- Event display -->
+        <div id="history-content" class="history-content">
+          <p>Select a year to view historical details.</p>
+        </div>
+      </section>
+
       <!-- Navigation Buttons -->
       <div class="nav-buttons">
         <button id="prevSection">❮</button>
         <button id="nextSection">❯</button>
       </div>
 
+      <!-- Food Modal -->
+<div id="food-modal" class="modal hidden">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <h2>Traditional Afghan Food</h2>
+
+    <div class="food-gallery" id="food-gallery"></div>
+  </div>
+</div>
+
+
     </section>
+
+    
   </main>
 
   <script src="country.js"></script>

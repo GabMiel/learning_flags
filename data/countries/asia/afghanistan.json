@@ -1,57 +1,147 @@
 {
   "name": "Afghanistan",
   "flag": "af",
-  "image": "https://images.unsplash.com/photo-1603974372039-adc49044b6bd",
+
   "sections": [
     {
       "title": "Overview",
-      "content": "Afghanistan is a landlocked country located at the crossroads of Central and South Asia, known for its rugged terrain and rich cultural heritage.",
-      "image": "../assets/icons/overview.png"
+      "content": "Afghanistan is a landlocked country located at the crossroads of Central and South Asia, known for its rugged terrain and rich cultural heritage."
     },
     {
       "title": "Capital City",
-      "content": "Kabul is the capital and largest city of Afghanistan, serving as its political and economic center.",
-      "image": "../assets/icons/capital.png"
+      "content": "Kabul is the capital and largest city of Afghanistan, serving as its political and economic center."
     },
     {
       "title": "Currency",
-      "content": "The official currency is the Afghan afghani (AFN).",
-      "image": "../assets/icons/currency.png"
+      "content": "The official currency is the Afghan afghani (AFN)."
     },
     {
       "title": "Language",
-      "content": "The main languages spoken are Dari and Pashto, both of which are official languages.",
-      "image": "../assets/icons/language.png"
+      "content": "The main languages spoken are Dari and Pashto, both of which are official languages."
     },
     {
       "title": "Traditional Food",
       "content": "Popular dishes include Kabuli pulao, mantu (dumplings), and kebabs, often served with naan bread.",
-      "image": "../assets/icons/food.png"
+      "images": [
+        "../assets/food/kabuli-pulao.jpg",
+        "../assets/food/mantu.jpg",
+        "../assets/food/afghan-kebab.jpg"
+      ]
     },
     {
       "title": "Geography",
-      "content": "Afghanistan features mountainous regions like the Hindu Kush, deserts, and fertile valleys, with a continental climate.",
-      "image": "../assets/icons/geography.png"
-    },
-    {
-      "title": "History",
-      "content": "Afghanistan has a long and complex history, from ancient Silk Road trade to modern geopolitical struggles.",
-      "image": "../assets/icons/history.png"
+      "content": "Afghanistan features mountainous regions like the Hindu Kush, deserts, and fertile valleys, with a continental climate."
     },
     {
       "title": "Culture",
-      "content": "Afghan culture is deeply rooted in poetry, music, and hospitality, with strong tribal and family traditions.",
-      "image": "../assets/icons/culture.png"
+      "content": "Afghan culture is deeply rooted in poetry, music, and hospitality, with strong tribal and family traditions."
     },
     {
       "title": "Tourism",
-      "content": "While tourism is limited due to security concerns, historical sites like the Buddhas of Bamiyan and Herat Citadel are notable.",
-      "image": "../assets/icons/tourism.png"
+      "content": "While tourism is limited due to security concerns, historical sites like the Buddhas of Bamiyan and Herat Citadel are notable."
     },
     {
       "title": "Fun Fact",
-      "content": "Afghanistan is one of the few countries where Buzkashi, a traditional horseback sport involving a goat carcass, is played competitively.",
-      "image": "../assets/icons/funfact.png"
+      "content": "Afghanistan is one of the few countries where Buzkashi, a traditional horseback sport involving a goat carcass, is played competitively."
     }
-  ]
+  ],
+
+  "history": [
+  {
+    "year": "2000 BCE",
+    "event": "Early civilizations emerged in the region, including settlements linked to the Indus Valley and Bactria–Margiana Archaeological Complex.",
+    "image": "../assets/history/ancient-afghanistan.jpg",
+    "link": "https://en.wikipedia.org/wiki/History_of_Afghanistan"
+  },
+  {
+    "year": "330 BCE",
+    "event": "Alexander the Great conquered the region after defeating the Achaemenid Empire, introducing Hellenistic culture.",
+    "image": "../assets/history/alexander.jpg",
+    "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+  },
+  {
+    "year": "1st–3rd Century",
+    "event": "The Kushan Empire ruled much of Afghanistan, becoming a center for Buddhism, trade, and Silk Road exchange.",
+    "image": "../assets/history/kushan.jpg",
+    "link": "https://en.wikipedia.org/wiki/Kushan_Empire"
+  },
+  {
+    "year": "650 CE",
+    "event": "Islam spread into the region, gradually becoming the dominant religion and reshaping Afghan society and governance.",
+    "image": "../assets/history/islam-spread.jpg",
+    "link": "https://en.wikipedia.org/wiki/Islam_in_Afghanistan"
+  },
+  {
+    "year": "1221",
+    "event": "Genghis Khan and the Mongol Empire devastated major cities, causing large-scale destruction and population decline.",
+    "image": "../assets/history/mongols.jpg",
+    "link": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Khwarezmia"
+  },
+  {
+    "year": "1504",
+    "event": "Babur captured Kabul and later founded the Mughal Empire, linking Afghanistan to South Asian imperial history.",
+    "image": "../assets/history/babur.jpg",
+    "link": "https://en.wikipedia.org/wiki/Babur"
+  },
+  {
+    "year": "1747",
+    "event": "Ahmad Shah Durrani founded the Durrani Empire, widely regarded as the birth of the modern Afghan state.",
+    "image": "../assets/history/durrani.jpg",
+    "link": "https://en.wikipedia.org/wiki/Durrani_Empire"
+  },
+  {
+    "year": "1839–1919",
+    "event": "Afghanistan became a battleground during the Anglo-Afghan Wars as Britain attempted to control the region.",
+    "image": "../assets/history/anglo-afghan.jpg",
+    "link": "https://en.wikipedia.org/wiki/Anglo-Afghan_Wars"
+  },
+  {
+    "year": "1919",
+    "event": "Afghanistan gained full independence following the Third Anglo-Afghan War.",
+    "image": "../assets/history/independence.jpg",
+    "link": "https://en.wikipedia.org/wiki/Afghan_independence"
+  },
+  {
+    "year": "1933–1973",
+    "event": "King Zahir Shah ruled for 40 years, overseeing modernization, neutrality, and relative stability.",
+    "image": "../assets/history/zahir-shah.jpg",
+    "link": "https://en.wikipedia.org/wiki/Mohammed_Zahir_Shah"
+  },
+  {
+    "year": "1973",
+    "event": "The monarchy was abolished in a coup, and Afghanistan was declared a republic.",
+    "image": "../assets/history/1973-coup.jpg",
+    "link": "https://en.wikipedia.org/wiki/1973_Afghan_coup_d%27%C3%A9tat"
+  },
+  {
+    "year": "1979–1989",
+    "event": "The Soviet Union invaded Afghanistan, leading to a decade-long war and massive displacement.",
+    "image": "../assets/history/soviet-war.jpg",
+    "link": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
+  },
+  {
+    "year": "1996",
+    "event": "The Taliban captured Kabul and established the Islamic Emirate of Afghanistan.",
+    "image": "../assets/history/taliban-1996.jpg",
+    "link": "https://en.wikipedia.org/wiki/Taliban"
+  },
+  {
+    "year": "2001",
+    "event": "A US-led coalition invaded Afghanistan after the September 11 attacks, overthrowing the Taliban government.",
+    "image": "../assets/history/2001-war.jpg",
+    "link": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
+  },
+  {
+    "year": "2004",
+    "event": "Afghanistan adopted a new constitution and held its first democratic presidential election.",
+    "image": "../assets/history/constitution.jpg",
+    "link": "https://en.wikipedia.org/wiki/Constitution_of_Afghanistan"
+  },
+  {
+    "year": "2021",
+    "event": "The Taliban regained control following the withdrawal of international forces.",
+    "image": "../assets/history/2021-taliban.jpg",
+    "link": "https://en.wikipedia.org/wiki/2021_Taliban_offensive"
+  }
+]
 }

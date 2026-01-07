@@ -21,10 +21,34 @@ function getIcon(title) {
   if (title.includes("capital")) return "🏛️";
   if (title.includes("currency")) return "💱";
   if (title.includes("language")) return "🗣️";
-  if (title.includes("population")) return "👥";
-  if (title.includes("religion")) return "🕌";
+  if (title.includes("food")) return "🍽️";
+  if (title.includes("culture")) return "🎭";
+  if (title.includes("history")) return "📜";
   return "📘";
 }
+
+/* Food modal elements */
+const foodModal = document.getElementById("food-modal");
+const foodGallery = document.getElementById("food-gallery");
+const closeModalBtn = document.querySelector(".modal-close");
+
+function openFoodModal(images) {
+  foodGallery.innerHTML = "";
+
+  images.forEach(imgSrc => {
+    const img = document.createElement("img");
+    img.src = imgSrc;
+    img.alt = "Traditional food";
+    foodGallery.appendChild(img);
+  });
+
+  foodModal.classList.remove("hidden");
+}
+
+closeModalBtn.onclick = () => foodModal.classList.add("hidden");
+foodModal.onclick = e => {
+  if (e.target === foodModal) foodModal.classList.add("hidden");
+};
 
 if (countryName && continent) {
   const safeFileName = countryName.toLowerCase().replace(/ /g, "-") + ".json";
@@ -40,24 +64,23 @@ if (countryName && continent) {
       document.getElementById("country-flag").src =
         `https://flagcdn.com/w80/${country.flag}.png`;
 
-      /* Map */
       document.getElementById("map-image").src =
         `https://flagcdn.com/map.svg?country=${country.flag.toUpperCase()}`;
 
-      const sections = country.sections || [];
-      renderCards(sections);
+      renderCards(country.sections || []);
+      renderTimeline(country.history || []);
 
       document.getElementById("prevSection").onclick = () => {
         if (currentIndex > 0) {
           currentIndex -= cardsPerPage;
-          renderCards(sections);
+          renderCards(country.sections);
         }
       };
 
       document.getElementById("nextSection").onclick = () => {
-        if (currentIndex + cardsPerPage < sections.length) {
+        if (currentIndex + cardsPerPage < country.sections.length) {
           currentIndex += cardsPerPage;
-          renderCards(sections);
+          renderCards(country.sections);
         }
       };
     })
@@ -68,6 +91,7 @@ if (countryName && continent) {
     });
 }
 
+/* Render info cards */
 function renderCards(sections) {
   const container = document.getElementById("cards");
   container.innerHTML = "";
@@ -80,12 +104,51 @@ function renderCards(sections) {
 
       card.innerHTML = `
         <div class="card-icon">${getIcon(section.title)}</div>
-        <div>
+        <div class="card-body">
           <h3>${section.title}</h3>
           <p>${section.content}</p>
         </div>
       `;
 
+      /* Food modal trigger */
+      if (section.images) {
+        card.style.cursor = "pointer";
+        card.onclick = () => openFoodModal(section.images);
+      }
+
       container.appendChild(card);
     });
+}
+
+/* Render history timeline */
+function renderTimeline(history) {
+  const yearList = document.getElementById("year-list");
+  const content = document.getElementById("history-content");
+
+  yearList.innerHTML = "";
+  content.innerHTML = "<p>Select a year to view historical details.</p>";
+
+  history.forEach(item => {
+    const btn = document.createElement("button");
+    btn.className = "year-btn";
+    btn.textContent = item.year;
+
+    btn.onclick = () => {
+      document.querySelectorAll(".year-btn")
+        .forEach(b => b.classList.remove("active"));
+
+      btn.classList.add("active");
+
+      content.innerHTML = `
+        <h3>${item.year}</h3>
+        <img src="${item.image}" class="history-img" alt="Historical event">
+        <p>${item.event}</p>
+        <a href="${item.link}" target="_blank" class="history-link">
+          Read more on Wikipedia →
+        </a>
+      `;
+    };
+
+    yearList.appendChild(btn);
+  });
 }
