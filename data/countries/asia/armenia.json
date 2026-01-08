@@ -2,6 +2,7 @@
   "name": "Armenia",
   "flag": "am",
   "image": "https://images.unsplash.com/photo-1589884479071-4c1b5c2d3a3f",
+
   "sections": [
     {
       "title": "Overview",
@@ -21,15 +22,16 @@
     },
     {
       "title": "Traditional Food",
-      "content": "Popular dishes include khorovats (barbecue), dolma (stuffed grape leaves), lavash (flatbread), and khash, a traditional soup."
+      "content": "Popular dishes include khorovats (barbecue), dolma (stuffed grape leaves), lavash (flatbread), and khash, a traditional soup.",
+      "images": [
+        "../assets/food/khorovats.jpg",
+        "../assets/food/dolma.jpg",
+        "../assets/food/lavash.jpg"
+      ]
     },
     {
       "title": "Geography",
       "content": "Armenia is a mountainous country with the Lesser Caucasus range, fertile valleys, and Lake Sevan. Mount Ararat, though located in Turkey, is a national symbol visible from Yerevan."
-    },
-    {
-      "title": "History",
-      "content": "Armenia is one of the world’s oldest nations, with roots in the Kingdom of Urartu and the Kingdom of Armenia. It was the first country to adopt Christianity as a state religion in 301 AD."
     },
     {
       "title": "Culture",
@@ -42,6 +44,111 @@
     {
       "title": "Fun Fact",
       "content": "Chess is a national passion in Armenia, and the country has produced several world champion grandmasters."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "9th–6th Century BCE",
+      "event": "The Kingdom of Urartu flourished around Lake Van and Mount Ararat, laying foundations of Armenian identity.",
+      "image": "../assets/history/urartu.jpg",
+      "link": "https://en.wikipedia.org/wiki/Urartu"
+    },
+    {
+      "year": "331 BCE",
+      "event": "Armenia came under the influence of Alexander the Great after the fall of the Achaemenid Empire.",
+      "image": "../assets/history/alexander-armenia.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Armenia"
+    },
+    {
+      "year": "95–55 BCE",
+      "event": "Under King Tigranes the Great, Armenia became a powerful empire stretching from the Mediterranean to the Caspian Sea.",
+      "image": "../assets/history/tigranes.jpg",
+      "link": "https://en.wikipedia.org/wiki/Tigranes_the_Great"
+    },
+    {
+      "year": "301 CE",
+      "event": "Armenia became the first nation to adopt Christianity as a state religion under King Tiridates III.",
+      "image": "../assets/history/christianity.jpg",
+      "link": "https://en.wikipedia.org/wiki/Christianity_in_Armenia"
+    },
+    {
+      "year": "428 CE",
+      "event": "The Armenian Kingdom was dissolved and incorporated into the Sassanian Empire.",
+      "image": "../assets/history/sassanian.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sasanian_Empire"
+    },
+    {
+      "year": "7th Century",
+      "event": "Arab Caliphate conquered Armenia, introducing Islamic influence while Christianity remained dominant.",
+      "image": "../assets/history/arab-conquest.jpg",
+      "link": "https://en.wikipedia.org/wiki/Arab_conquest_of_Armenia"
+    },
+    {
+      "year": "9th–11th Century",
+      "event": "The Bagratid Kingdom of Armenia restored independence, with Ani as a flourishing capital known as the 'City of 1001 Churches'.",
+      "image": "../assets/history/ani.jpg",
+      "link": "https://en.wikipedia.org/wiki/Bagratid_Armenia"
+    },
+    {
+      "year": "1375",
+      "event": "The fall of the Armenian Kingdom of Cilicia marked the end of medieval Armenian statehood.",
+      "image": "../assets/history/cilicia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia"
+    },
+    {
+      "year": "16th–18th Century",
+      "event": "Armenia became a contested land between the Ottoman and Persian Empires.",
+      "image": "../assets/history/ottoman-persian.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Armenia"
+    },
+    {
+      "year": "1828",
+      "event": "Eastern Armenia was annexed by the Russian Empire following the Treaty of Turkmenchay.",
+      "image": "../assets/history/russian-armenia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Treaty_of_Turkmenchay"
+    },
+    {
+      "year": "1915",
+      "event": "The Armenian Genocide occurred under the Ottoman Empire, resulting in the deaths of over a million Armenians.",
+      "image": "../assets/history/genocide.jpg",
+      "link": "https://en.wikipedia.org/wiki/Armenian_genocide"
+    },
+    {
+      "year": "1918",
+      "event": "The First Republic of Armenia was established after the collapse of the Russian Empire.",
+      "image": "../assets/history/first-republic.jpg",
+      "link": "https://en.wikipedia.org/wiki/First_Republic_of_Armenia"
+    },
+    {
+      "year": "1920",
+      "event": "Armenia was incorporated into the Soviet Union as the Armenian SSR.",
+      "image": "../assets/history/soviet-armenia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Armenian_Soviet_Socialist_Republic"
+    },
+    {
+      "year": "1991",
+      "event": "Armenia declared independence from the Soviet Union, becoming a sovereign state.",
+      "image": "../assets/history/independence-armenia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Armenia"
+    },
+    {
+      "year": "1988–1994",
+      "event": "The Nagorno-Karabakh War broke out between Armenians and Azerbaijanis, leading to ongoing conflict.",
+      "image": "../assets/history/karabakh-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Nagorno-Karabakh_War"
+    },
+    {
+      "year": "2018",
+      "event": "The Velvet Revolution brought peaceful political change, leading to democratic reforms.",
+      "image": "../assets/history/velvet-revolution.jpg",
+      "link": "https://en.wikipedia.org/wiki/2018_Armenian_revolution"
+    },
+    {
+      "year": "2020",
+      "event": "The Second Nagorno-Karabakh War resulted in territorial losses for Armenia.",
+      "image": "../assets/history/2020-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/2020_Nagorno-Karabakh_war"
     }
   ]
 }
