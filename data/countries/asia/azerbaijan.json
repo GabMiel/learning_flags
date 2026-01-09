@@ -1,0 +1,136 @@
+{
+  "name": "Azerbaijan",
+  "flag": "az",
+  "image": "https://images.unsplash.com/photo-1604062437631-3a2f8e5f4f6b",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Azerbaijan is a country located at the crossroads of Eastern Europe and Western Asia, known for its rich oil reserves, diverse landscapes, and cultural blend of Turkic, Persian, and Russian influences."
+    },
+    {
+      "title": "Capital City",
+      "content": "Baku is the capital and largest city of Azerbaijan, famous for its modern skyline, historic Old City, and Caspian Sea coastline."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Azerbaijani manat (AZN)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Azerbaijani (Azeri), a Turkic language written in the Latin alphabet."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include plov (rice pilaf), dolma (stuffed vegetables), kebabs, piti (lamb stew), and qutab (stuffed flatbread).",
+      "images": [
+        "../assets/food/plov.jpg",
+        "../assets/food/dolma.jpg",
+        "../assets/food/kebab.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Azerbaijan features the Caspian Sea coastline, the Caucasus Mountains, semi-desert plains, and fertile valleys. It is also home to mud volcanoes and the Gobustan rock art site."
+    },
+    {
+      "title": "Culture",
+      "content": "Azerbaijani culture blends Turkic traditions with Persian and Russian influences. Music, poetry, carpet weaving, and the national mugham style are central to its identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Flame Towers in Baku, Gobustan National Park, Sheki Khan’s Palace, mud volcanoes, and the Caspian Sea resorts."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Azerbaijan is known as the 'Land of Fire' due to its natural gas reserves and burning mountain, Yanar Dag, which has been aflame for centuries."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "1st Millennium BCE",
+      "event": "The region was part of Caucasian Albania, an ancient kingdom with its own language and culture.",
+      "image": "../assets/history/caucasian-albania.jpg",
+      "link": "https://en.wikipedia.org/wiki/Caucasian_Albania"
+    },
+    {
+      "year": "4th Century CE",
+      "event": "Christianity spread into Caucasian Albania, though later Islam became dominant.",
+      "image": "../assets/history/christianity-albania.jpg",
+      "link": "https://en.wikipedia.org/wiki/Caucasian_Albania"
+    },
+    {
+      "year": "7th Century",
+      "event": "Arab Caliphate conquered the region, introducing Islam which became the majority religion.",
+      "image": "../assets/history/arab-conquest-azerbaijan.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Azerbaijan"
+    },
+    {
+      "year": "11th Century",
+      "event": "Seljuk Turks settled in the region, shaping Azerbaijani language and culture.",
+      "image": "../assets/history/seljuks.jpg",
+      "link": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+    },
+    {
+      "year": "13th Century",
+      "event": "Mongol invasions devastated cities and reshaped political structures.",
+      "image": "../assets/history/mongols-azerbaijan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Caucasus"
+    },
+    {
+      "year": "1501",
+      "event": "Shah Ismail I founded the Safavid Empire, making Shia Islam the state religion in Azerbaijan.",
+      "image": "../assets/history/safavid.jpg",
+      "link": "https://en.wikipedia.org/wiki/Safavid_dynasty"
+    },
+    {
+      "year": "18th Century",
+      "event": "Azerbaijan was divided into khanates, semi-independent principalities under Persian influence.",
+      "image": "../assets/history/khanates.jpg",
+      "link": "https://en.wikipedia.org/wiki/Khanates_of_the_Caucasus"
+    },
+    {
+      "year": "1828",
+      "event": "Northern Azerbaijan was annexed by the Russian Empire after the Treaty of Turkmenchay.",
+      "image": "../assets/history/russian-azerbaijan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Treaty_of_Turkmenchay"
+    },
+    {
+      "year": "1918",
+      "event": "The Azerbaijan Democratic Republic was established, becoming the first secular democratic republic in the Muslim world.",
+      "image": "../assets/history/adr.jpg",
+      "link": "https://en.wikipedia.org/wiki/Azerbaijan_Democratic_Republic"
+    },
+    {
+      "year": "1920",
+      "event": "The Soviet Union incorporated Azerbaijan as the Azerbaijan SSR.",
+      "image": "../assets/history/soviet-azerbaijan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Azerbaijan_Soviet_Socialist_Republic"
+    },
+    {
+      "year": "1991",
+      "event": "Azerbaijan declared independence from the Soviet Union.",
+      "image": "../assets/history/independence-azerbaijan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Azerbaijan"
+    },
+    {
+      "year": "1988–1994",
+      "event": "The First Nagorno-Karabakh War broke out between Azerbaijan and Armenia, leading to territorial disputes.",
+      "image": "../assets/history/karabakh-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Nagorno-Karabakh_War"
+    },
+    {
+      "year": "2003",
+      "event": "Ilham Aliyev became president, continuing his father Heydar Aliyev’s leadership legacy.",
+      "image": "../assets/history/aliyev.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ilham_Aliyev"
+    },
+    {
+      "year": "2020",
+      "event": "The Second Nagorno-Karabakh War resulted in Azerbaijan regaining significant territories.",
+      "image": "../assets/history/2020-karabakh.jpg",
+      "link": "https://en.wikipedia.org/wiki/2020_Nagorno-Karabakh_war"
+    }
+  ]
+}
