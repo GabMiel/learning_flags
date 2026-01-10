@@ -1,0 +1,118 @@
+{
+  "name": "Bahrain",
+  "flag": "bh",
+  "image": "https://images.unsplash.com/photo-1590490360183-9f2a3c6b3f3d",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Bahrain is a small island nation in the Persian Gulf, known for its rich history, pearl diving heritage, and modern financial and tourism industries."
+    },
+    {
+      "title": "Capital City",
+      "content": "Manama is the capital and largest city of Bahrain, serving as its political, cultural, and economic center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Bahraini dinar (BHD)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Arabic, though English is widely spoken in business and education."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include machboos (spiced rice with meat or fish), muhammar (sweet rice with dates), and grilled seafood.",
+      "images": [
+        "../assets/food/machboos.jpg",
+        "../assets/food/muhammar.jpg",
+        "../assets/food/grilled-seafood.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Bahrain is an archipelago of 33 islands in the Persian Gulf, featuring desert terrain, coastal areas, and fertile date palm groves."
+    },
+    {
+      "title": "Culture",
+      "content": "Bahraini culture blends Arab traditions with Persian and Indian influences. Music, poetry, and hospitality are central, alongside a legacy of pearl diving."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Bahrain Fort (Qal'at al-Bahrain), the Bahrain National Museum, the Formula 1 Bahrain International Circuit, and traditional souqs."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Bahrain was historically famous for its natural pearls, considered among the finest in the world."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "3rd Millennium BCE",
+      "event": "The Dilmun civilization flourished in Bahrain, serving as a major trade hub between Mesopotamia and the Indus Valley.",
+      "image": "../assets/history/dilmun.jpg",
+      "link": "https://en.wikipedia.org/wiki/Dilmun"
+    },
+    {
+      "year": "6th Century BCE",
+      "event": "Bahrain came under the influence of the Babylonian and later Persian empires.",
+      "image": "../assets/history/persian-empire.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bahrain"
+    },
+    {
+      "year": "7th Century CE",
+      "event": "Islam spread to Bahrain during the lifetime of Prophet Muhammad, becoming the dominant religion.",
+      "image": "../assets/history/islam-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bahrain"
+    },
+    {
+      "year": "1521",
+      "event": "The Portuguese occupied Bahrain, controlling trade routes in the Persian Gulf.",
+      "image": "../assets/history/portuguese.jpg",
+      "link": "https://en.wikipedia.org/wiki/Portuguese_Bahrain"
+    },
+    {
+      "year": "1602",
+      "event": "The Safavid Persians expelled the Portuguese and ruled Bahrain for nearly two centuries.",
+      "image": "../assets/history/safavid-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/Safavid_dynasty"
+    },
+    {
+      "year": "1783",
+      "event": "The Al Khalifa family took control of Bahrain, establishing a dynasty that continues to rule today.",
+      "image": "../assets/history/al-khalifa.jpg",
+      "link": "https://en.wikipedia.org/wiki/House_of_Al_Khalifa"
+    },
+    {
+      "year": "1861",
+      "event": "Bahrain signed a treaty with Britain, becoming a British protectorate while retaining internal autonomy.",
+      "image": "../assets/history/british-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bahrain"
+    },
+    {
+      "year": "1932",
+      "event": "Oil was discovered in Bahrain, making it the first Gulf state to exploit petroleum resources.",
+      "image": "../assets/history/oil-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/Petroleum_industry_in_Bahrain"
+    },
+    {
+      "year": "1971",
+      "event": "Bahrain declared independence from Britain and joined the United Nations and Arab League.",
+      "image": "../assets/history/independence-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bahrain"
+    },
+    {
+      "year": "2002",
+      "event": "Bahrain became a constitutional monarchy under King Hamad bin Isa Al Khalifa.",
+      "image": "../assets/history/king-hamad.jpg",
+      "link": "https://en.wikipedia.org/wiki/Hamad_bin_Isa_Al_Khalifa"
+    },
+    {
+      "year": "2011",
+      "event": "Protests erupted during the Arab Spring, leading to political unrest and reforms.",
+      "image": "../assets/history/arab-spring-bahrain.jpg",
+      "link": "https://en.wikipedia.org/wiki/2011_Bahraini_uprising"
+    }
+  ]
+}
