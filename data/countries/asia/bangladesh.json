@@ -1,0 +1,118 @@
+{
+  "name": "Bangladesh",
+  "flag": "bd",
+  "image": "https://images.unsplash.com/photo-1589308078054-8322c5f3f1b7",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Bangladesh is a South Asian country located on the Bay of Bengal, known for its fertile delta, vibrant culture, and resilience in the face of natural challenges."
+    },
+    {
+      "title": "Capital City",
+      "content": "Dhaka is the capital and largest city of Bangladesh, serving as its political, cultural, and economic hub."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Bangladeshi taka (BDT)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Bengali (Bangla), written in its own script and spoken by the vast majority of the population."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include biryani, hilsa fish curry, panta bhat (fermented rice), and sweets like roshogolla and sandesh.",
+      "images": [
+        "../assets/food/biryani.jpg",
+        "../assets/food/hilsa.jpg",
+        "../assets/food/roshogolla.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Bangladesh is dominated by the Ganges-Brahmaputra Delta, with fertile plains, rivers, and mangrove forests like the Sundarbans, home to the Bengal tiger."
+    },
+    {
+      "title": "Culture",
+      "content": "Bangladeshi culture emphasizes literature, music, art, and festivals. The Bengali language movement and traditions of poetry and song are central to national identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Sundarbans mangrove forest, Cox’s Bazar (the world’s longest natural sea beach), Srimangal tea gardens, and historic Dhaka landmarks."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "The national anthem of Bangladesh, 'Amar Sonar Bangla,' was written by Rabindranath Tagore, who also composed India’s anthem."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "Ancient Period",
+      "event": "The Bengal region was home to ancient kingdoms like Vanga and later part of the Maurya and Gupta Empires.",
+      "image": "../assets/history/ancient-bengal.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bangladesh"
+    },
+    {
+      "year": "1204",
+      "event": "The Delhi Sultanate established Muslim rule in Bengal, influencing culture and architecture.",
+      "image": "../assets/history/delhi-sultanate.jpg",
+      "link": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+    },
+    {
+      "year": "1576",
+      "event": "The Mughal Empire incorporated Bengal, making Dhaka a major provincial capital and trade hub.",
+      "image": "../assets/history/mughal-bengal.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mughal_Empire"
+    },
+    {
+      "year": "1757",
+      "event": "The Battle of Plassey marked the beginning of British colonial rule in Bengal.",
+      "image": "../assets/history/plassey.jpg",
+      "link": "https://en.wikipedia.org/wiki/Battle_of_Plassey"
+    },
+    {
+      "year": "1905",
+      "event": "The Partition of Bengal by the British sparked nationalist movements and protests.",
+      "image": "../assets/history/partition-1905.jpg",
+      "link": "https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)"
+    },
+    {
+      "year": "1947",
+      "event": "Following the partition of India, East Bengal became East Pakistan, part of the newly created Pakistan.",
+      "image": "../assets/history/partition-1947.jpg",
+      "link": "https://en.wikipedia.org/wiki/Partition_of_India"
+    },
+    {
+      "year": "1952",
+      "event": "The Bengali Language Movement saw protests demanding recognition of Bengali as a state language, leading to eventual success.",
+      "image": "../assets/history/language-movement.jpg",
+      "link": "https://en.wikipedia.org/wiki/Bengali_language_movement"
+    },
+    {
+      "year": "1971",
+      "event": "The Bangladesh Liberation War led to independence from Pakistan, with support from India.",
+      "image": "../assets/history/liberation-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War"
+    },
+    {
+      "year": "1972",
+      "event": "Bangladesh adopted its constitution and became a parliamentary democracy.",
+      "image": "../assets/history/constitution-bd.jpg",
+      "link": "https://en.wikipedia.org/wiki/Constitution_of_Bangladesh"
+    },
+    {
+      "year": "1991",
+      "event": "Bangladesh transitioned back to parliamentary democracy after years of military rule.",
+      "image": "../assets/history/democracy-1991.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bangladesh"
+    },
+    {
+      "year": "2009",
+      "event": "Sheikh Hasina became Prime Minister, ushering in a period of economic growth and development.",
+      "image": "../assets/history/sheikh-hasina.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sheikh_Hasina"
+    }
+  ]
+}
