@@ -1,0 +1,100 @@
+{
+  "name": "Bhutan",
+  "flag": "bt",
+  "image": "https://images.unsplash.com/photo-1589308078054-8322c5f3f1b7",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Bhutan is a small landlocked kingdom in the Eastern Himalayas, known for its stunning landscapes, Buddhist traditions, and unique philosophy of Gross National Happiness."
+    },
+    {
+      "title": "Capital City",
+      "content": "Thimphu is the capital and largest city of Bhutan, serving as its political, cultural, and economic center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Bhutanese ngultrum (BTN), pegged to the Indian rupee."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Dzongkha, though several regional languages are spoken across the country."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include ema datshi (chilies with cheese), momo (dumplings), red rice, and suja (butter tea).",
+      "images": [
+        "../assets/food/ema-datshi.jpg",
+        "../assets/food/momo.jpg",
+        "../assets/food/red-rice.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Bhutan is a mountainous country in the Himalayas, with lush valleys, rivers, and forests. It is known for its biodiversity and conservation efforts."
+    },
+    {
+      "title": "Culture",
+      "content": "Bhutanese culture is deeply rooted in Vajrayana Buddhism, with vibrant festivals (tsechus), traditional dress (gho and kira), and strong community values."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Tiger’s Nest Monastery (Paro Taktsang), Punakha Dzong, Dochula Pass, and the pristine Himalayan landscapes."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Bhutan measures progress through Gross National Happiness (GNH), prioritizing well-being and environmental sustainability over GDP."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "7th Century",
+      "event": "Buddhism was introduced to Bhutan, with Tibetan influence shaping its spiritual and cultural foundations.",
+      "image": "../assets/history/buddhism-bhutan.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bhutan"
+    },
+    {
+      "year": "1616",
+      "event": "Ngawang Namgyal, a Tibetan lama, unified Bhutan and established the dual system of governance combining secular and religious authority.",
+      "image": "../assets/history/ngawang-namgyal.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ngawang_Namgyal"
+    },
+    {
+      "year": "17th–18th Century",
+      "event": "Bhutan defended its independence against invasions from Tibet and the Mughal Empire.",
+      "image": "../assets/history/bhutan-defense.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Bhutan"
+    },
+    {
+      "year": "1865",
+      "event": "The Treaty of Sinchula was signed with British India, ceding some territories but maintaining Bhutan’s sovereignty.",
+      "image": "../assets/history/sinchula.jpg",
+      "link": "https://en.wikipedia.org/wiki/Treaty_of_Sinchula"
+    },
+    {
+      "year": "1907",
+      "event": "Ugyen Wangchuck was crowned the first King of Bhutan, establishing the hereditary monarchy.",
+      "image": "../assets/history/ugyen-wangchuck.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ugyen_Wangchuck"
+    },
+    {
+      "year": "1949",
+      "event": "Bhutan signed the Treaty of Friendship with India, ensuring mutual respect and cooperation.",
+      "image": "../assets/history/india-bhutan.jpg",
+      "link": "https://en.wikipedia.org/wiki/India–Bhutan_relations"
+    },
+    {
+      "year": "1971",
+      "event": "Bhutan joined the United Nations, gaining international recognition as a sovereign state.",
+      "image": "../assets/history/un-bhutan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Foreign_relations_of_Bhutan"
+    },
+    {
+      "year": "2008",
+      "event": "Bhutan transitioned to a constitutional monarchy and held its first democratic elections.",
+      "image": "../assets/history/democracy-bhutan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Politics_of_Bhutan"
+    }
+  ]
+}
