@@ -1,0 +1,106 @@
+{
+  "name": "Brunei",
+  "flag": "bn",
+  "image": "https://images.unsplash.com/photo-1604062437631-3a2f8e5f4f6b",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Brunei Darussalam is a small, wealthy nation on the island of Borneo in Southeast Asia, known for its oil and gas reserves, Islamic traditions, and high standard of living."
+    },
+    {
+      "title": "Capital City",
+      "content": "Bandar Seri Begawan is the capital and largest city of Brunei, home to the Sultan’s palace and the iconic Omar Ali Saifuddien Mosque."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Brunei dollar (BND), which is pegged to the Singapore dollar."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Malay, though English is widely used in business and education."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include nasi katok (rice with fried chicken and sambal), ambuyat (sago starch dish), satay, and beef rendang.",
+      "images": [
+        "../assets/food/nasi-katok.jpg",
+        "../assets/food/ambuyat.jpg",
+        "../assets/food/satay.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Brunei is located on the northern coast of Borneo, bordered by Malaysia and the South China Sea. It features tropical rainforests, rivers, and coastal areas."
+    },
+    {
+      "title": "Culture",
+      "content": "Brunei’s culture is deeply influenced by Malay traditions and Islam. The monarchy and Islamic values play a central role in daily life."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Omar Ali Saifuddien Mosque, Kampong Ayer (the water village), Ulu Temburong National Park, and the Royal Regalia Museum."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Brunei has one of the world’s highest car ownership rates, with more cars than people in some households."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "6th–14th Century",
+      "event": "Brunei was part of the Srivijaya and Majapahit empires, serving as a regional trading hub.",
+      "image": "../assets/history/srivijaya.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Brunei"
+    },
+    {
+      "year": "15th Century",
+      "event": "The Sultanate of Brunei rose to power, controlling much of Borneo and parts of the Philippines.",
+      "image": "../assets/history/sultanate.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sultanate_of_Brunei"
+    },
+    {
+      "year": "16th Century",
+      "event": "Brunei reached its peak under Sultan Bolkiah, becoming a dominant maritime power in Southeast Asia.",
+      "image": "../assets/history/bolkiah.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sultan_Bolkiah"
+    },
+    {
+      "year": "17th–19th Century",
+      "event": "Brunei’s influence declined due to internal strife and European colonial expansion in the region.",
+      "image": "../assets/history/decline.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Brunei"
+    },
+    {
+      "year": "1888",
+      "event": "Brunei became a British protectorate, retaining its monarchy but losing much of its territory.",
+      "image": "../assets/history/british-brunei.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Brunei"
+    },
+    {
+      "year": "1929",
+      "event": "Oil was discovered in Brunei, transforming its economy and ensuring wealth for the nation.",
+      "image": "../assets/history/oil-brunei.jpg",
+      "link": "https://en.wikipedia.org/wiki/Oil_and_gas_industry_in_Brunei"
+    },
+    {
+      "year": "1959",
+      "event": "A new constitution was introduced, affirming Brunei’s internal self-government under the Sultan.",
+      "image": "../assets/history/constitution-brunei.jpg",
+      "link": "https://en.wikipedia.org/wiki/Constitution_of_Brunei"
+    },
+    {
+      "year": "1984",
+      "event": "Brunei gained full independence from Britain and joined the United Nations.",
+      "image": "../assets/history/independence-brunei.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Brunei"
+    },
+    {
+      "year": "1990s–Present",
+      "event": "Brunei has maintained political stability under Sultan Hassanal Bolkiah, with wealth from oil and gas supporting its welfare state.",
+      "image": "../assets/history/hassanal-bolkiah.jpg",
+      "link": "https://en.wikipedia.org/wiki/Hassanal_Bolkiah"
+    }
+  ]
+}
