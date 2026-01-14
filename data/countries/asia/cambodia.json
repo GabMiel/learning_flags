@@ -1,0 +1,118 @@
+{
+  "name": "Cambodia",
+  "flag": "kh",
+  "image": "https://images.unsplash.com/photo-1589884479071-4c1b5c2d3a3f",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Cambodia is a Southeast Asian country known for its ancient temples, resilient history, and rich cultural traditions. It is located in the Indochina Peninsula, bordered by Thailand, Laos, Vietnam, and the Gulf of Thailand."
+    },
+    {
+      "title": "Capital City",
+      "content": "Phnom Penh is the capital and largest city of Cambodia, serving as its political, cultural, and economic hub."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Cambodian riel (KHR), though the US dollar is also widely used."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Khmer, spoken by the majority of the population."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Popular dishes include amok (coconut curry with fish), kuy teav (noodle soup), bai sach chrouk (grilled pork with rice), and num banh chok (Khmer noodles).",
+      "images": [
+        "../assets/food/amok.jpg",
+        "../assets/food/kuy-teav.jpg",
+        "../assets/food/bai-sach-chrouk.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Cambodia features the Mekong River, Tonlé Sap Lake, fertile plains, and the Cardamom Mountains. Its tropical climate supports rice farming and fishing."
+    },
+    {
+      "title": "Culture",
+      "content": "Cambodian culture is deeply influenced by Theravada Buddhism, traditional dance, music, and crafts. The Khmer Empire’s legacy remains central to national identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include Angkor Wat, Bayon Temple, Ta Prohm, Tonlé Sap Lake, and the Royal Palace in Phnom Penh."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Angkor Wat is the largest religious monument in the world and appears on Cambodia’s national flag."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "1st–6th Century",
+      "event": "The Funan Kingdom flourished in southern Cambodia, becoming an early center of trade and Hindu-Buddhist culture.",
+      "image": "../assets/history/funan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Funan"
+    },
+    {
+      "year": "6th–9th Century",
+      "event": "The Chenla Kingdom succeeded Funan, laying the foundations for the Khmer Empire.",
+      "image": "../assets/history/chenla.jpg",
+      "link": "https://en.wikipedia.org/wiki/Chenla"
+    },
+    {
+      "year": "802",
+      "event": "Jayavarman II declared himself 'universal monarch,' founding the Khmer Empire.",
+      "image": "../assets/history/jayavarman.jpg",
+      "link": "https://en.wikipedia.org/wiki/Jayavarman_II"
+    },
+    {
+      "year": "9th–15th Century",
+      "event": "The Khmer Empire thrived, building Angkor Wat and other monumental temples, becoming one of Southeast Asia’s greatest civilizations.",
+      "image": "../assets/history/angkor.jpg",
+      "link": "https://en.wikipedia.org/wiki/Khmer_Empire"
+    },
+    {
+      "year": "1431",
+      "event": "The decline of the Khmer Empire followed the sack of Angkor by Ayutthaya forces, shifting power to Phnom Penh.",
+      "image": "../assets/history/angkor-decline.jpg",
+      "link": "https://en.wikipedia.org/wiki/Khmer_Empire"
+    },
+    {
+      "year": "1863",
+      "event": "Cambodia became a French protectorate, part of French Indochina.",
+      "image": "../assets/history/french-cambodia.jpg",
+      "link": "https://en.wikipedia.org/wiki/French_Cambodia"
+    },
+    {
+      "year": "1953",
+      "event": "Cambodia gained independence from France under King Norodom Sihanouk.",
+      "image": "../assets/history/independence-cambodia.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Cambodia"
+    },
+    {
+      "year": "1975",
+      "event": "The Khmer Rouge, led by Pol Pot, seized power, resulting in mass atrocities and genocide.",
+      "image": "../assets/history/khmer-rouge.jpg",
+      "link": "https://en.wikipedia.org/wiki/Khmer_Rouge"
+    },
+    {
+      "year": "1979",
+      "event": "Vietnamese forces overthrew the Khmer Rouge, establishing the People’s Republic of Kampuchea.",
+      "image": "../assets/history/vietnam-cambodia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Cambodia"
+    },
+    {
+      "year": "1993",
+      "event": "Cambodia restored its monarchy under King Norodom Sihanouk and transitioned to a constitutional monarchy.",
+      "image": "../assets/history/1993-cambodia.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Cambodia"
+    },
+    {
+      "year": "2004",
+      "event": "King Norodom Sihamoni was crowned, continuing the royal lineage.",
+      "image": "../assets/history/sihamoni.jpg",
+      "link": "https://en.wikipedia.org/wiki/Norodom_Sihamoni"
+    }
+  ]
+}
