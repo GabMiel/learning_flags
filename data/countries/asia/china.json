@@ -1,0 +1,142 @@
+{
+  "name": "China",
+  "flag": "cn",
+  "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "China is the world’s most populous country, located in East Asia. It is known for its ancient civilization, rapid modernization, and global influence in politics, economics, and culture."
+    },
+    {
+      "title": "Capital City",
+      "content": "Beijing is the capital of China, serving as its political and cultural center. Shanghai is its largest city and a global financial hub."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Chinese yuan (CNY), also known as the renminbi (RMB)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Mandarin Chinese, though many regional languages and dialects are spoken across the country."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Chinese cuisine is diverse, with famous dishes including Peking duck, dumplings, hot pot, and dim sum.",
+      "images": [
+        "../assets/food/peking-duck.jpg",
+        "../assets/food/dumplings.jpg",
+        "../assets/food/hot-pot.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "China has vast and varied geography, including mountains like the Himalayas, deserts such as the Gobi, fertile river valleys, and long coastlines along the Pacific Ocean."
+    },
+    {
+      "title": "Culture",
+      "content": "Chinese culture is one of the world’s oldest, with traditions in Confucianism, Taoism, and Buddhism. Calligraphy, martial arts, festivals, and family values are central to its identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Great Wall of China, the Forbidden City, the Terracotta Army, the Yangtze River, and modern cities like Shanghai and Shenzhen."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "China is the birthplace of paper, gunpowder, printing, and the compass—known as the Four Great Inventions."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "2100–1600 BCE",
+      "event": "The Xia Dynasty is traditionally considered the first dynasty in Chinese history.",
+      "image": "../assets/history/xia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Xia_dynasty"
+    },
+    {
+      "year": "1600–1046 BCE",
+      "event": "The Shang Dynasty ruled, known for bronze casting, oracle bones, and early writing.",
+      "image": "../assets/history/shang.jpg",
+      "link": "https://en.wikipedia.org/wiki/Shang_dynasty"
+    },
+    {
+      "year": "1046–256 BCE",
+      "event": "The Zhou Dynasty introduced Confucianism and Taoism, shaping Chinese philosophy.",
+      "image": "../assets/history/zhou.jpg",
+      "link": "https://en.wikipedia.org/wiki/Zhou_dynasty"
+    },
+    {
+      "year": "221–206 BCE",
+      "event": "The Qin Dynasty unified China under Emperor Qin Shi Huang, building the first Great Wall and standardizing laws, currency, and writing.",
+      "image": "../assets/history/qin.jpg",
+      "link": "https://en.wikipedia.org/wiki/Qin_dynasty"
+    },
+    {
+      "year": "206 BCE–220 CE",
+      "event": "The Han Dynasty expanded trade along the Silk Road and advanced science, technology, and culture.",
+      "image": "../assets/history/han.jpg",
+      "link": "https://en.wikipedia.org/wiki/Han_dynasty"
+    },
+    {
+      "year": "618–907",
+      "event": "The Tang Dynasty marked a golden age of art, poetry, and international trade.",
+      "image": "../assets/history/tang.jpg",
+      "link": "https://en.wikipedia.org/wiki/Tang_dynasty"
+    },
+    {
+      "year": "960–1279",
+      "event": "The Song Dynasty saw innovations in printing, gunpowder, and navigation.",
+      "image": "../assets/history/song.jpg",
+      "link": "https://en.wikipedia.org/wiki/Song_dynasty"
+    },
+    {
+      "year": "1271–1368",
+      "event": "The Yuan Dynasty, founded by Kublai Khan, integrated Mongol rule into China.",
+      "image": "../assets/history/yuan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Yuan_dynasty"
+    },
+    {
+      "year": "1368–1644",
+      "event": "The Ming Dynasty built much of the Great Wall and fostered maritime exploration under Zheng He.",
+      "image": "../assets/history/ming.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ming_dynasty"
+    },
+    {
+      "year": "1644–1912",
+      "event": "The Qing Dynasty was China’s last imperial dynasty, facing internal strife and foreign pressures.",
+      "image": "../assets/history/qing.jpg",
+      "link": "https://en.wikipedia.org/wiki/Qing_dynasty"
+    },
+    {
+      "year": "1912",
+      "event": "The Republic of China was established after the fall of the Qing Dynasty.",
+      "image": "../assets/history/republic.jpg",
+      "link": "https://en.wikipedia.org/wiki/Republic_of_China_(1912–1949)"
+    },
+    {
+      "year": "1949",
+      "event": "The People’s Republic of China was founded under Mao Zedong after the Chinese Civil War.",
+      "image": "../assets/history/prc.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_the_People%27s_Republic_of_China"
+    },
+    {
+      "year": "1978",
+      "event": "Economic reforms under Deng Xiaoping opened China to global trade and modernization.",
+      "image": "../assets/history/deng.jpg",
+      "link": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+    },
+    {
+      "year": "2001",
+      "event": "China joined the World Trade Organization, accelerating its role in global commerce.",
+      "image": "../assets/history/wto.jpg",
+      "link": "https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization"
+    },
+    {
+      "year": "2008",
+      "event": "Beijing hosted the Summer Olympics, showcasing China’s modernization and global presence.",
+      "image": "../assets/history/olympics.jpg",
+      "link": "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+    }
+  ]
+}
