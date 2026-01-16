@@ -1,0 +1,112 @@
+{
+  "name": "Cyprus",
+  "flag": "cy",
+  "image": "https://images.unsplash.com/photo-1600703136783-bdb5ea365b5b",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Cyprus is an island country located in the eastern Mediterranean Sea. It is culturally and historically linked to both Europe and Western Asia and is known for its ancient history, beautiful beaches, and strategic location."
+    },
+    {
+      "title": "Capital City",
+      "content": "Nicosia is the capital and largest city of Cyprus. It is the last divided capital city in Europe, split between the Republic of Cyprus and Northern Cyprus."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Cyprus is the Euro (EUR)."
+    },
+    {
+      "title": "Language",
+      "content": "The official languages are Greek and Turkish. English is widely spoken, especially in business and tourism."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Cypriot cuisine blends Greek and Middle Eastern influences, with popular dishes such as halloumi cheese, souvlaki, moussaka, and meze.",
+      "images": [
+        "../assets/food/halloumi.jpg",
+        "../assets/food/souvlaki.jpg",
+        "../assets/food/meze.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Cyprus features sandy beaches, rugged coastlines, fertile plains, and mountain ranges such as the Troodos Mountains, which experience snowfall in winter."
+    },
+    {
+      "title": "Culture",
+      "content": "Cypriot culture is shaped by Greek, Turkish, and Middle Eastern traditions. Music, dance, religious festivals, and strong family ties play an important role in daily life."
+    },
+    {
+      "title": "Tourism",
+      "content": "Major tourist attractions include ancient ruins like Kourion, the Tombs of the Kings, beaches in Ayia Napa, the Troodos Mountains, and historic cities such as Paphos."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "According to mythology, Cyprus is the birthplace of Aphrodite, the ancient Greek goddess of love and beauty."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 10,000 BCE",
+      "event": "Early human settlements appeared on Cyprus, making it one of the oldest inhabited islands in the Mediterranean.",
+      "image": "../assets/history/prehistoric-cyprus.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Cyprus"
+    },
+    {
+      "year": "1200 BCE",
+      "event": "Mycenaean Greeks settled on the island, establishing Greek culture and language.",
+      "image": "../assets/history/mycenaean.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mycenaean_Greece"
+    },
+    {
+      "year": "333 BCE",
+      "event": "Cyprus came under the control of Alexander the Great and later the Hellenistic kingdoms.",
+      "image": "../assets/history/alexander.jpg",
+      "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+    },
+    {
+      "year": "58 BCE",
+      "event": "Cyprus was annexed by the Roman Empire, becoming an important Mediterranean province.",
+      "image": "../assets/history/roman-cyprus.jpg",
+      "link": "https://en.wikipedia.org/wiki/Roman_Cyprus"
+    },
+    {
+      "year": "330–1191",
+      "event": "Cyprus was part of the Byzantine Empire and became a strong center of Orthodox Christianity.",
+      "image": "../assets/history/byzantine.jpg",
+      "link": "https://en.wikipedia.org/wiki/Byzantine_Cyprus"
+    },
+    {
+      "year": "1571",
+      "event": "The Ottoman Empire conquered Cyprus, introducing Turkish culture and Islam.",
+      "image": "../assets/history/ottoman.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ottoman_Cyprus"
+    },
+    {
+      "year": "1878",
+      "event": "Cyprus came under British administration while remaining formally part of the Ottoman Empire.",
+      "image": "../assets/history/british-cyprus.jpg",
+      "link": "https://en.wikipedia.org/wiki/British_Cyprus"
+    },
+    {
+      "year": "1960",
+      "event": "Cyprus gained independence from Britain and became the Republic of Cyprus.",
+      "image": "../assets/history/independence.jpg",
+      "link": "https://en.wikipedia.org/wiki/Cyprus#Independence"
+    },
+    {
+      "year": "1974",
+      "event": "A coup and subsequent Turkish military intervention led to the division of the island.",
+      "image": "../assets/history/division.jpg",
+      "link": "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus"
+    },
+    {
+      "year": "2004",
+      "event": "Cyprus joined the European Union, strengthening its political and economic ties with Europe.",
+      "image": "../assets/history/eu.jpg",
+      "link": "https://en.wikipedia.org/wiki/Cyprus_and_the_European_Union"
+    }
+  ]
+}
