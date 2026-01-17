@@ -1,0 +1,106 @@
+{
+  "name": "Georgia",
+  "flag": "ge",
+  "image": "https://images.unsplash.com/photo-1549640376-08d2a59c5a8f",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Georgia is a country located at the crossroads of Eastern Europe and Western Asia, in the Caucasus region. It is known for its ancient history, unique language, mountainous landscapes, and strong cultural identity."
+    },
+    {
+      "title": "Capital City",
+      "content": "Tbilisi is the capital and largest city of Georgia. It is known for its historic old town, diverse architecture, and vibrant cultural scene."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Georgia is the Georgian lari (GEL)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Georgian, which has its own unique alphabet. Minority languages are also spoken, and English is increasingly used among younger generations."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Georgian cuisine is famous for its rich flavors and use of herbs, with popular dishes including khachapuri, khinkali, and lobio.",
+      "images": [
+        "../assets/food/khachapuri.jpg",
+        "../assets/food/khinkali.jpg",
+        "../assets/food/lobio.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Georgia has diverse geography, ranging from the high peaks of the Greater Caucasus Mountains to fertile valleys and a Black Sea coastline."
+    },
+    {
+      "title": "Culture",
+      "content": "Georgian culture emphasizes hospitality, traditional polyphonic singing, dance, and a deep connection to Orthodox Christianity and ancient traditions."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Caucasus Mountains, ancient monasteries like Gergeti Trinity Church, the historic city of Mtskheta, and wine regions such as Kakheti."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Georgia is considered one of the oldest wine-producing regions in the world, with winemaking traditions dating back over 8,000 years."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 3000 BCE",
+      "event": "Early civilizations emerged in the region, laying the foundations of Georgian culture.",
+      "image": "../assets/history/ancient-georgia.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Georgia_(country)"
+    },
+    {
+      "year": "4th century CE",
+      "event": "Christianity was adopted as the state religion, making Georgia one of the earliest Christian nations.",
+      "image": "../assets/history/christianity.jpg",
+      "link": "https://en.wikipedia.org/wiki/Christianity_in_Georgia"
+    },
+    {
+      "year": "1008–1466",
+      "event": "The unified Kingdom of Georgia experienced a golden age of political power, culture, and architecture.",
+      "image": "../assets/history/golden-age.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+    },
+    {
+      "year": "15th century",
+      "event": "Georgia fragmented into several kingdoms and principalities due to invasions and internal conflicts.",
+      "image": "../assets/history/fragmentation.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Georgia_(country)#Fragmentation"
+    },
+    {
+      "year": "1801",
+      "event": "The Kingdom of Kartli-Kakheti was annexed by the Russian Empire.",
+      "image": "../assets/history/russian-empire.jpg",
+      "link": "https://en.wikipedia.org/wiki/Annexation_of_Georgia_by_the_Russian_Empire"
+    },
+    {
+      "year": "1918",
+      "event": "Georgia declared independence following the collapse of the Russian Empire.",
+      "image": "../assets/history/independence-1918.jpg",
+      "link": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia"
+    },
+    {
+      "year": "1921",
+      "event": "Georgia was incorporated into the Soviet Union.",
+      "image": "../assets/history/soviet.jpg",
+      "link": "https://en.wikipedia.org/wiki/Georgian_Soviet_Socialist_Republic"
+    },
+    {
+      "year": "1991",
+      "event": "Georgia regained independence after the dissolution of the Soviet Union.",
+      "image": "../assets/history/independence-1991.jpg",
+      "link": "https://en.wikipedia.org/wiki/Georgia_(country)"
+    },
+    {
+      "year": "2008",
+      "event": "A brief war with Russia occurred over the regions of South Ossetia and Abkhazia.",
+      "image": "../assets/history/2008-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Russo-Georgian_War"
+    }
+  ]
+}
