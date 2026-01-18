@@ -1,0 +1,136 @@
+{
+  "name": "India",
+  "flag": "in",
+  "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "India is a vast South Asian country known for its diverse cultures, languages, religions, and landscapes. It is the world’s largest democracy and one of the fastest-growing economies."
+    },
+    {
+      "title": "Capital City",
+      "content": "New Delhi is the capital of India, serving as its political center, while Mumbai is the largest city and financial hub."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency is the Indian rupee (INR)."
+    },
+    {
+      "title": "Language",
+      "content": "India has no national language but recognizes Hindi and English as official languages, alongside 21 other scheduled languages."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Indian cuisine is incredibly diverse, with popular dishes including biryani, butter chicken, dosa, samosas, and masala chai.",
+      "images": [
+        "../assets/food/biryani.jpg",
+        "../assets/food/butter-chicken.jpg",
+        "../assets/food/dosa.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "India’s geography ranges from the Himalayas in the north to coastal plains in the south, with deserts, fertile river valleys, and tropical forests."
+    },
+    {
+      "title": "Culture",
+      "content": "Indian culture is shaped by Hinduism, Buddhism, Islam, Sikhism, and Christianity. Festivals, music, dance, cinema, and literature are central to its identity."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism highlights include the Taj Mahal, Jaipur’s palaces, Kerala’s backwaters, Goa’s beaches, and the Himalayan mountains."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "India is the birthplace of chess, yoga, and Ayurveda, traditions that have spread worldwide."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "2500 BCE",
+      "event": "The Indus Valley Civilization flourished, one of the world’s earliest urban cultures.",
+      "image": "../assets/history/indus-valley.jpg",
+      "link": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+    },
+    {
+      "year": "1500 BCE",
+      "event": "The Vedic period began, laying the foundations of Hindu philosophy and society.",
+      "image": "../assets/history/vedic.jpg",
+      "link": "https://en.wikipedia.org/wiki/Vedic_period"
+    },
+    {
+      "year": "321 BCE",
+      "event": "The Maurya Empire was founded by Chandragupta Maurya, later flourishing under Ashoka.",
+      "image": "../assets/history/maurya.jpg",
+      "link": "https://en.wikipedia.org/wiki/Maurya_Empire"
+    },
+    {
+      "year": "320 CE",
+      "event": "The Gupta Empire ushered in a golden age of science, art, and literature.",
+      "image": "../assets/history/gupta.jpg",
+      "link": "https://en.wikipedia.org/wiki/Gupta_Empire"
+    },
+    {
+      "year": "712 CE",
+      "event": "Arab traders and conquerors introduced Islam to India.",
+      "image": "../assets/history/islam-india.jpg",
+      "link": "https://en.wikipedia.org/wiki/Islam_in_India"
+    },
+    {
+      "year": "1206",
+      "event": "The Delhi Sultanate was established, ruling much of northern India.",
+      "image": "../assets/history/delhi-sultanate.jpg",
+      "link": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+    },
+    {
+      "year": "1526",
+      "event": "Babur founded the Mughal Empire, which became a major power in South Asia.",
+      "image": "../assets/history/mughal.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mughal_Empire"
+    },
+    {
+      "year": "1757",
+      "event": "The Battle of Plassey marked the beginning of British dominance in India.",
+      "image": "../assets/history/plassey.jpg",
+      "link": "https://en.wikipedia.org/wiki/Battle_of_Plassey"
+    },
+    {
+      "year": "1857",
+      "event": "The Indian Rebellion of 1857 challenged British rule but was suppressed.",
+      "image": "../assets/history/rebellion-1857.jpg",
+      "link": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+    },
+    {
+      "year": "1947",
+      "event": "India gained independence from Britain, leading to the partition of India and Pakistan.",
+      "image": "../assets/history/independence-india.jpg",
+      "link": "https://en.wikipedia.org/wiki/Indian_independence"
+    },
+    {
+      "year": "1950",
+      "event": "India adopted its constitution and became a republic.",
+      "image": "../assets/history/constitution-india.jpg",
+      "link": "https://en.wikipedia.org/wiki/Constitution_of_India"
+    },
+    {
+      "year": "1971",
+      "event": "India supported Bangladesh’s independence during the Bangladesh Liberation War.",
+      "image": "../assets/history/1971-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1971"
+    },
+    {
+      "year": "1991",
+      "event": "Economic liberalization reforms opened India to global markets, sparking rapid growth.",
+      "image": "../assets/history/liberalization.jpg",
+      "link": "https://en.wikipedia.org/wiki/Economic_liberalisation_in_India"
+    },
+    {
+      "year": "2014",
+      "event": "India launched the Mars Orbiter Mission (Mangalyaan), becoming the first Asian nation to reach Mars orbit.",
+      "image": "../assets/history/mangalyaan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mars_Orbiter_Mission"
+    }
+  ]
+}
