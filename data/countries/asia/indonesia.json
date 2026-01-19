@@ -1,0 +1,106 @@
+{
+  "name": "Indonesia",
+  "flag": "id",
+  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Indonesia is the world’s largest archipelagic country, located in Southeast Asia. It consists of over 17,000 islands and is known for its cultural diversity, rich natural resources, and strategic maritime position."
+    },
+    {
+      "title": "Capital City",
+      "content": "Jakarta is the capital city of Indonesia and its main political, economic, and cultural center. The country plans to move its capital to Nusantara in East Kalimantan."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Indonesia is the Indonesian rupiah (IDR)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Indonesian (Bahasa Indonesia), which unites the country’s many ethnic and linguistic groups."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Indonesian cuisine is flavorful and diverse, with popular dishes including nasi goreng, rendang, satay, and gado-gado.",
+      "images": [
+        "../assets/food/nasi-goreng.jpg",
+        "../assets/food/rendang.jpg",
+        "../assets/food/satay.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Indonesia lies along the Pacific Ring of Fire and has volcanoes, tropical rainforests, coral reefs, and fertile agricultural land."
+    },
+    {
+      "title": "Culture",
+      "content": "Indonesian culture reflects a mix of indigenous traditions, Hindu-Buddhist heritage, Islamic influence, and European colonial history."
+    },
+    {
+      "title": "Tourism",
+      "content": "Major tourist destinations include Bali, Borobudur Temple, Komodo National Park, Raja Ampat, and Mount Bromo."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Indonesia has more active volcanoes than any other country in the world."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 7th century",
+      "event": "The Srivijaya Empire emerged as a powerful maritime kingdom controlling trade routes in Southeast Asia.",
+      "image": "../assets/history/srivijaya.jpg",
+      "link": "https://en.wikipedia.org/wiki/Srivijaya"
+    },
+    {
+      "year": "13th century",
+      "event": "The Majapahit Empire rose to prominence, uniting much of the Indonesian archipelago.",
+      "image": "../assets/history/majapahit.jpg",
+      "link": "https://en.wikipedia.org/wiki/Majapahit"
+    },
+    {
+      "year": "16th century",
+      "event": "European powers arrived, beginning with the Portuguese, followed by the Dutch.",
+      "image": "../assets/history/portuguese.jpg",
+      "link": "https://en.wikipedia.org/wiki/Portuguese_Empire"
+    },
+    {
+      "year": "1800",
+      "event": "The Dutch East Indies came under direct control of the Dutch government.",
+      "image": "../assets/history/dutch-east-indies.jpg",
+      "link": "https://en.wikipedia.org/wiki/Dutch_East_Indies"
+    },
+    {
+      "year": "1942–1945",
+      "event": "Japan occupied Indonesia during World War II.",
+      "image": "../assets/history/japanese-occupation.jpg",
+      "link": "https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies"
+    },
+    {
+      "year": "1945",
+      "event": "Indonesia declared independence under Sukarno.",
+      "image": "../assets/history/independence-1945.jpg",
+      "link": "https://en.wikipedia.org/wiki/Proclamation_of_Indonesian_Independence"
+    },
+    {
+      "year": "1949",
+      "event": "The Netherlands officially recognized Indonesia’s independence.",
+      "image": "../assets/history/recognition.jpg",
+      "link": "https://en.wikipedia.org/wiki/Indonesian_National_Revolution"
+    },
+    {
+      "year": "1967",
+      "event": "Suharto became president, ushering in the New Order period.",
+      "image": "../assets/history/suharto.jpg",
+      "link": "https://en.wikipedia.org/wiki/Suharto"
+    },
+    {
+      "year": "1998",
+      "event": "The Reformasi era began after Suharto stepped down, leading to democratic reforms.",
+      "image": "../assets/history/reformasi.jpg",
+      "link": "https://en.wikipedia.org/wiki/Reformasi_(Indonesia)"
+    }
+  ]
+}
