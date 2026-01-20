@@ -1,0 +1,100 @@
+{
+  "name": "Iran",
+  "flag": "ir",
+  "image": "https://images.unsplash.com/photo-1603188462234-7e1c8b9e2c8d",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Iran, officially known as the Islamic Republic of Iran, is a country located in Western Asia. It is known for its ancient civilization, rich cultural heritage, and significant influence in regional history, art, and science."
+    },
+    {
+      "title": "Capital City",
+      "content": "Tehran is the capital and largest city of Iran, serving as the country’s political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Iran is the Iranian rial (IRR)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Persian (Farsi). Several regional languages are also spoken, including Azerbaijani, Kurdish, and Arabic."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Iranian cuisine is known for its balance of flavors, herbs, and spices, with popular dishes such as kebab, ghormeh sabzi, and fesenjan.",
+      "images": [
+        "../assets/food/kebab.jpg",
+        "../assets/food/ghormeh-sabzi.jpg",
+        "../assets/food/fesenjan.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Iran has diverse geography that includes deserts, fertile plains, mountain ranges like the Zagros and Alborz Mountains, and coastlines along the Caspian Sea and the Persian Gulf."
+    },
+    {
+      "title": "Culture",
+      "content": "Iranian culture is deeply rooted in Persian traditions, literature, poetry, and art. Hospitality, family values, and celebrations such as Nowruz play an important role in daily life."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include ancient sites like Persepolis, historic cities such as Isfahan and Shiraz, beautiful mosques, and traditional bazaars."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Iran celebrates Nowruz, the Persian New Year, which has been observed for over 3,000 years."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 550 BCE",
+      "event": "The Achaemenid Empire was founded by Cyrus the Great, becoming one of the largest empires in ancient history.",
+      "image": "../assets/history/achaemenid.jpg",
+      "link": "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+    },
+    {
+      "year": "330 BCE",
+      "event": "Alexander the Great conquered the Persian Empire, leading to Hellenistic influence in the region.",
+      "image": "../assets/history/alexander-persia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+    },
+    {
+      "year": "224–651",
+      "event": "The Sasanian Empire ruled Persia, marking a peak in Persian culture, architecture, and governance.",
+      "image": "../assets/history/sasanian.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sasanian_Empire"
+    },
+    {
+      "year": "651",
+      "event": "Arab Muslim forces conquered Persia, introducing Islam to the region.",
+      "image": "../assets/history/islamic-conquest.jpg",
+      "link": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+    },
+    {
+      "year": "1501",
+      "event": "The Safavid Dynasty established Shi’a Islam as the state religion of Iran.",
+      "image": "../assets/history/safavid.jpg",
+      "link": "https://en.wikipedia.org/wiki/Safavid_dynasty"
+    },
+    {
+      "year": "1796",
+      "event": "The Qajar Dynasty came to power, ruling Iran during a period of internal and foreign challenges.",
+      "image": "../assets/history/qajar.jpg",
+      "link": "https://en.wikipedia.org/wiki/Qajar_dynasty"
+    },
+    {
+      "year": "1925",
+      "event": "Reza Shah founded the Pahlavi Dynasty, initiating modernization reforms.",
+      "image": "../assets/history/pahlavi.jpg",
+      "link": "https://en.wikipedia.org/wiki/Pahlavi_dynasty"
+    },
+    {
+      "year": "1979",
+      "event": "The Iranian Revolution led to the establishment of the Islamic Republic of Iran.",
+      "image": "../assets/history/iranian-revolution.jpg",
+      "link": "https://en.wikipedia.org/wiki/Iranian_Revolution"
+    }
+  ]
+}
