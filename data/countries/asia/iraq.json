@@ -1,0 +1,106 @@
+{
+  "name": "Iraq",
+  "flag": "iq",
+  "image": "https://images.unsplash.com/photo-1605217613423-0b9caa1c6f16",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Iraq is a country located in Western Asia, often referred to as the cradle of civilization. It is home to some of the world’s earliest cities and cultures, including ancient Mesopotamia."
+    },
+    {
+      "title": "Capital City",
+      "content": "Baghdad is the capital and largest city of Iraq. It has historically been a major center of learning, culture, and trade in the Islamic world."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Iraq is the Iraqi dinar (IQD)."
+    },
+    {
+      "title": "Language",
+      "content": "The official languages are Arabic and Kurdish. Other languages spoken include Turkmen and Assyrian Neo-Aramaic."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Iraqi cuisine is rich and hearty, with popular dishes such as masgouf, dolma, kubba, and biryani.",
+      "images": [
+        "../assets/food/masgouf.jpg",
+        "../assets/food/dolma.jpg",
+        "../assets/food/kubba.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Iraq’s geography includes fertile river valleys formed by the Tigris and Euphrates rivers, deserts in the west, and mountainous regions in the north."
+    },
+    {
+      "title": "Culture",
+      "content": "Iraqi culture reflects a blend of Arab, Kurdish, and ancient Mesopotamian traditions, with strong emphasis on family, hospitality, poetry, and music."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism sites include ancient cities such as Babylon and Ur, religious shrines in Najaf and Karbala, and historical landmarks in Baghdad."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Writing is believed to have first developed in ancient Mesopotamia, located in modern-day Iraq."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 3500 BCE",
+      "event": "The Sumerians established some of the world’s first cities, including Uruk and Ur.",
+      "image": "../assets/history/sumer.jpg",
+      "link": "https://en.wikipedia.org/wiki/Sumer"
+    },
+    {
+      "year": "c. 2300 BCE",
+      "event": "The Akkadian Empire united much of Mesopotamia under Sargon of Akkad.",
+      "image": "../assets/history/akkadian.jpg",
+      "link": "https://en.wikipedia.org/wiki/Akkadian_Empire"
+    },
+    {
+      "year": "c. 1800 BCE",
+      "event": "The Babylonian Empire flourished under Hammurabi, known for one of the earliest law codes.",
+      "image": "../assets/history/babylon.jpg",
+      "link": "https://en.wikipedia.org/wiki/Babylon"
+    },
+    {
+      "year": "c. 900 BCE",
+      "event": "The Assyrian Empire rose to power, dominating much of the Near East.",
+      "image": "../assets/history/assyrian.jpg",
+      "link": "https://en.wikipedia.org/wiki/Assyrian_Empire"
+    },
+    {
+      "year": "637",
+      "event": "Islamic forces captured Mesopotamia, integrating the region into the Islamic Caliphate.",
+      "image": "../assets/history/islamic-iraq.jpg",
+      "link": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+    },
+    {
+      "year": "762",
+      "event": "Baghdad was founded and became the capital of the Abbasid Caliphate.",
+      "image": "../assets/history/abbasid.jpg",
+      "link": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+    },
+    {
+      "year": "1534",
+      "event": "The Ottoman Empire gained control over Iraq.",
+      "image": "../assets/history/ottoman-iraq.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ottoman_Iraq"
+    },
+    {
+      "year": "1932",
+      "event": "Iraq gained independence from British control and became a sovereign state.",
+      "image": "../assets/history/independence-iraq.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kingdom_of_Iraq"
+    },
+    {
+      "year": "2003",
+      "event": "A US-led invasion resulted in major political changes in Iraq.",
+      "image": "../assets/history/2003-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq"
+    }
+  ]
+}
