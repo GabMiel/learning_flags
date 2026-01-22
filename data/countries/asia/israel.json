@@ -1,0 +1,100 @@
+{
+  "name": "Israel",
+  "flag": "il",
+  "image": "https://images.unsplash.com/photo-1544986581-efac024faf62",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Israel is a country located in Western Asia along the eastern coast of the Mediterranean Sea. It is known for its historical and religious significance, technological innovation, and diverse cultural heritage."
+    },
+    {
+      "title": "Capital City",
+      "content": "Jerusalem is Israel’s capital city and holds deep religious importance for Judaism, Christianity, and Islam."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Israel is the Israeli new shekel (ILS)."
+    },
+    {
+      "title": "Language",
+      "content": "The official languages are Hebrew and Arabic. English is widely spoken, especially in business and education."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Israeli cuisine reflects Middle Eastern and Mediterranean influences, with popular foods such as falafel, hummus, shakshuka, and sabich.",
+      "images": [
+        "../assets/food/falafel.jpg",
+        "../assets/food/hummus.jpg",
+        "../assets/food/shakshuka.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Israel has varied geography, including Mediterranean coastlines, deserts such as the Negev, fertile plains, and mountainous regions."
+    },
+    {
+      "title": "Culture",
+      "content": "Israeli culture blends traditions from Jewish communities around the world with Middle Eastern influences, emphasizing family, holidays, and innovation."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include the Old City of Jerusalem, the Dead Sea, Masada, Tel Aviv’s beaches, and historical sites in Nazareth."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "The Dead Sea, located partly in Israel, is one of the saltiest bodies of water on Earth and lies at the lowest land elevation on land."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 1000 BCE",
+      "event": "The Kingdom of Israel and the Kingdom of Judah emerged in the ancient Levant.",
+      "image": "../assets/history/ancient-israel.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+    },
+    {
+      "year": "586 BCE",
+      "event": "Babylonian forces destroyed Jerusalem and the First Temple.",
+      "image": "../assets/history/babylonian-exile.jpg",
+      "link": "https://en.wikipedia.org/wiki/Babylonian_captivity"
+    },
+    {
+      "year": "63 BCE",
+      "event": "The region came under Roman rule.",
+      "image": "../assets/history/roman-judea.jpg",
+      "link": "https://en.wikipedia.org/wiki/Judea_(Roman_province)"
+    },
+    {
+      "year": "7th century",
+      "event": "Islamic caliphates gained control of the region.",
+      "image": "../assets/history/islamic-rule.jpg",
+      "link": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Levant"
+    },
+    {
+      "year": "1517",
+      "event": "The Ottoman Empire incorporated the region into its territories.",
+      "image": "../assets/history/ottoman-israel.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ottoman_Syria"
+    },
+    {
+      "year": "1917",
+      "event": "The Balfour Declaration expressed British support for a Jewish homeland.",
+      "image": "../assets/history/balfour.jpg",
+      "link": "https://en.wikipedia.org/wiki/Balfour_Declaration"
+    },
+    {
+      "year": "1948",
+      "event": "The State of Israel was declared independent.",
+      "image": "../assets/history/independence-israel.jpg",
+      "link": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+    },
+    {
+      "year": "1967",
+      "event": "The Six-Day War significantly changed regional borders.",
+      "image": "../assets/history/six-day-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Six-Day_War"
+    }
+  ]
+}
