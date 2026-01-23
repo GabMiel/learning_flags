@@ -1,0 +1,100 @@
+{
+  "name": "Japan",
+  "flag": "jp",
+  "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Japan is an island country located in East Asia. It is known for its blend of ancient traditions and modern technology, rich cultural heritage, and strong influence in global economics, pop culture, and innovation."
+    },
+    {
+      "title": "Capital City",
+      "content": "Tokyo is the capital and largest city of Japan. It is one of the world’s most populous metropolitan areas and a major global financial and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Japan is the Japanese yen (JPY)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Japanese. It uses three writing systems: Hiragana, Katakana, and Kanji."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Japanese cuisine is known for its simplicity and balance, with popular dishes such as sushi, ramen, tempura, and okonomiyaki.",
+      "images": [
+        "../assets/food/sushi.jpg",
+        "../assets/food/ramen.jpg",
+        "../assets/food/tempura.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Japan consists of thousands of islands, with mountainous terrain, active volcanoes, and long coastlines. It lies along the Pacific Ring of Fire."
+    },
+    {
+      "title": "Culture",
+      "content": "Japanese culture values respect, harmony, and tradition. Tea ceremonies, martial arts, festivals, anime, and manga are important cultural elements."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include Mount Fuji, Kyoto’s temples and shrines, Tokyo’s modern districts, Hiroshima’s Peace Memorial Park, and cherry blossom festivals."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Japan has more than 6,000 islands, although only about 400 are inhabited."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 14,000 BCE",
+      "event": "The Jōmon period began, marked by some of the world’s earliest pottery.",
+      "image": "../assets/history/jomon.jpg",
+      "link": "https://en.wikipedia.org/wiki/J%C5%8Dmon_period"
+    },
+    {
+      "year": "300 BCE–300 CE",
+      "event": "The Yayoi period introduced rice farming, metal tools, and social hierarchy.",
+      "image": "../assets/history/yayoi.jpg",
+      "link": "https://en.wikipedia.org/wiki/Yayoi_period"
+    },
+    {
+      "year": "794–1185",
+      "event": "The Heian period saw the rise of classical Japanese culture and literature.",
+      "image": "../assets/history/heian.jpg",
+      "link": "https://en.wikipedia.org/wiki/Heian_period"
+    },
+    {
+      "year": "1185–1600",
+      "event": "Samurai rule dominated Japan under various shogunates.",
+      "image": "../assets/history/samurai.jpg",
+      "link": "https://en.wikipedia.org/wiki/Samurai"
+    },
+    {
+      "year": "1603–1868",
+      "event": "The Tokugawa Shogunate enforced isolation and internal stability.",
+      "image": "../assets/history/tokugawa.jpg",
+      "link": "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
+    },
+    {
+      "year": "1868",
+      "event": "The Meiji Restoration modernized Japan and ended feudal rule.",
+      "image": "../assets/history/meiji.jpg",
+      "link": "https://en.wikipedia.org/wiki/Meiji_Restoration"
+    },
+    {
+      "year": "1945",
+      "event": "Japan surrendered at the end of World War II after atomic bombings.",
+      "image": "../assets/history/ww2-japan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
+    },
+    {
+      "year": "1950s–present",
+      "event": "Japan rebuilt its economy, becoming a global leader in technology and industry.",
+      "image": "../assets/history/postwar.jpg",
+      "link": "https://en.wikipedia.org/wiki/Postwar_Japan"
+    }
+  ]
+}
