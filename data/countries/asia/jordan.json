@@ -1,0 +1,94 @@
+{
+  "name": "Jordan",
+  "flag": "jo",
+  "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Jordan is a country located in Western Asia, known for its ancient history, desert landscapes, and role as a cultural crossroads of the Middle East."
+    },
+    {
+      "title": "Capital City",
+      "content": "Amman is the capital and largest city of Jordan. It is the country’s political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Jordan is the Jordanian dinar (JOD)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Arabic. English is widely understood and commonly used in education and business."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Jordanian cuisine is known for its rich flavors and hospitality, with popular dishes such as mansaf, falafel, and maqluba.",
+      "images": [
+        "../assets/food/mansaf.jpg",
+        "../assets/food/falafel.jpg",
+        "../assets/food/maqluba.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Jordan features deserts, fertile valleys, highlands, and the Jordan Rift Valley. It is also home to part of the Dead Sea, the lowest point on land."
+    },
+    {
+      "title": "Culture",
+      "content": "Jordanian culture emphasizes hospitality, family ties, and tradition, influenced by Arab, Islamic, and Bedouin heritage."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include the ancient city of Petra, Wadi Rum desert, the Dead Sea, Jerash ruins, and historic Islamic sites."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Petra, one of Jordan’s most famous landmarks, is one of the New Seven Wonders of the World."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 1200 BCE",
+      "event": "Ancient kingdoms such as Edom, Moab, and Ammon existed in the region.",
+      "image": "../assets/history/edom.jpg",
+      "link": "https://en.wikipedia.org/wiki/Edom"
+    },
+    {
+      "year": "312 BCE",
+      "event": "The Nabataean Kingdom rose to power, with Petra as its capital.",
+      "image": "../assets/history/nabataean.jpg",
+      "link": "https://en.wikipedia.org/wiki/Nabataean_Kingdom"
+    },
+    {
+      "year": "106 CE",
+      "event": "The Roman Empire annexed Nabataea, developing cities such as Jerash.",
+      "image": "../assets/history/roman-jordan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Arabia_Petraea"
+    },
+    {
+      "year": "7th century",
+      "event": "Islam spread through the region, becoming a key part of Jordan’s identity.",
+      "image": "../assets/history/islamic-jordan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Levant"
+    },
+    {
+      "year": "1516",
+      "event": "Jordan came under Ottoman rule for several centuries.",
+      "image": "../assets/history/ottoman-jordan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+    },
+    {
+      "year": "1921",
+      "event": "The Emirate of Transjordan was established under British supervision.",
+      "image": "../assets/history/transjordan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Emirate_of_Transjordan"
+    },
+    {
+      "year": "1946",
+      "event": "Jordan gained independence and became the Hashemite Kingdom of Jordan.",
+      "image": "../assets/history/independence-jordan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Jordan"
+    }
+  ]
+}
