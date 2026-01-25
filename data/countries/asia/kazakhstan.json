@@ -1,0 +1,88 @@
+{
+  "name": "Kazakhstan",
+  "flag": "kz",
+  "image": "https://images.unsplash.com/photo-1605000797499-95a51c5269ae",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Kazakhstan is the largest landlocked country in the world, located in Central Asia. It is known for its vast steppes, natural resources, and blend of nomadic traditions with modern development."
+    },
+    {
+      "title": "Capital City",
+      "content": "Astana is the capital city of Kazakhstan. It is known for its modern architecture and rapid development."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Kazakhstan is the Kazakhstani tenge (KZT)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Kazakh, while Russian is widely used in government, business, and daily communication."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Kazakh cuisine is influenced by nomadic traditions, with popular dishes such as beshbarmak, kazy, and baursak.",
+      "images": [
+        "../assets/food/beshbarmak.jpg",
+        "../assets/food/kazy.jpg",
+        "../assets/food/baursak.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Kazakhstan has vast grasslands, deserts, mountains, and lakes. It borders the Caspian Sea and has rich mineral and energy resources."
+    },
+    {
+      "title": "Culture",
+      "content": "Kazakh culture emphasizes hospitality, respect for elders, and traditions rooted in nomadic heritage, including music, horse riding, and oral storytelling."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include the Altai Mountains, Charyn Canyon, Big Almaty Lake, and the modern cityscape of Astana."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Kazakhstan was the launch site of the world’s first human spaceflight, with Yuri Gagarin launching from Baikonur Cosmodrome."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "c. 1000 BCE",
+      "event": "Nomadic tribes inhabited the Central Asian steppes, forming early cultural foundations.",
+      "image": "../assets/history/nomads.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Central_Asia"
+    },
+    {
+      "year": "13th century",
+      "event": "The region became part of the Mongol Empire under Genghis Khan.",
+      "image": "../assets/history/mongol.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mongol_Empire"
+    },
+    {
+      "year": "15th century",
+      "event": "The Kazakh Khanate was established, uniting Kazakh tribes.",
+      "image": "../assets/history/kazakh-khanate.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kazakh_Khanate"
+    },
+    {
+      "year": "18th–19th century",
+      "event": "Kazakhstan gradually came under the control of the Russian Empire.",
+      "image": "../assets/history/russian-empire-kz.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kazakhstan#Russian_and_Soviet_eras"
+    },
+    {
+      "year": "1936",
+      "event": "Kazakhstan became a Soviet republic within the USSR.",
+      "image": "../assets/history/soviet-kz.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kazakh_Soviet_Socialist_Republic"
+    },
+    {
+      "year": "1991",
+      "event": "Kazakhstan declared independence following the dissolution of the Soviet Union.",
+      "image": "../assets/history/independence-kz.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Kazakhstan"
+    }
+  ]
+}
