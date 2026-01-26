@@ -1,0 +1,88 @@
+{
+  "name": "Kuwait",
+  "flag": "kw",
+  "image": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Kuwait is a small but wealthy country located in Western Asia along the Persian Gulf. It is known for its vast oil reserves, modern skyline, and strong cultural traditions."
+    },
+    {
+      "title": "Capital City",
+      "content": "Kuwait City is the capital and largest city of Kuwait. It serves as the country’s political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Kuwait is the Kuwaiti dinar (KWD), one of the highest-valued currencies in the world."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Arabic. English is widely spoken, especially in business and education."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Kuwaiti cuisine reflects Arabian and Persian influences, with popular dishes such as machboos, mutabbaq samak, and harees.",
+      "images": [
+        "../assets/food/machboos.jpg",
+        "../assets/food/mutabbaq-samak.jpg",
+        "../assets/food/harees.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Kuwait has mostly flat desert terrain with a short coastline along the Persian Gulf. It experiences extremely hot summers."
+    },
+    {
+      "title": "Culture",
+      "content": "Kuwaiti culture places strong importance on family, hospitality, and Islamic traditions, while also embracing modern lifestyles."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include the Kuwait Towers, Grand Mosque, Souq Al-Mubarakiya, and modern shopping districts."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Kuwait’s currency is often ranked as the strongest currency in the world by value."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "18th century",
+      "event": "Kuwait was established as a trading port and fishing settlement.",
+      "image": "../assets/history/early-kuwait.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Kuwait"
+    },
+    {
+      "year": "1899",
+      "event": "Kuwait became a British protectorate to secure its autonomy.",
+      "image": "../assets/history/british-kuwait.jpg",
+      "link": "https://en.wikipedia.org/wiki/Anglo-Kuwaiti_Agreement_of_1899"
+    },
+    {
+      "year": "1938",
+      "event": "Oil was discovered, transforming Kuwait’s economy and society.",
+      "image": "../assets/history/oil-kuwait.jpg",
+      "link": "https://en.wikipedia.org/wiki/Petroleum_industry_in_Kuwait"
+    },
+    {
+      "year": "1961",
+      "event": "Kuwait gained independence from the United Kingdom.",
+      "image": "../assets/history/independence-kuwait.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kuwait"
+    },
+    {
+      "year": "1990",
+      "event": "Iraq invaded Kuwait, leading to the Gulf War.",
+      "image": "../assets/history/gulf-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Invasion_of_Kuwait"
+    },
+    {
+      "year": "1991",
+      "event": "Kuwait was liberated following an international coalition effort.",
+      "image": "../assets/history/liberation-kuwait.jpg",
+      "link": "https://en.wikipedia.org/wiki/Gulf_War"
+    }
+  ]
+}
