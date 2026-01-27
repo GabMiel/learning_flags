@@ -1,0 +1,88 @@
+{
+  "name": "Kyrgyzstan",
+  "flag": "kg",
+  "image": "https://images.unsplash.com/photo-1589466725882-9bbf9c1f88a7",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Kyrgyzstan is a landlocked country in Central Asia, known for its dramatic mountain landscapes, nomadic heritage, and strong cultural traditions rooted in Central Asian history."
+    },
+    {
+      "title": "Capital City",
+      "content": "Bishkek is the capital and largest city of Kyrgyzstan. It serves as the country’s political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Kyrgyzstan is the Kyrgyzstani som (KGS)."
+    },
+    {
+      "title": "Language",
+      "content": "The official languages are Kyrgyz and Russian. Kyrgyz is the state language, while Russian is widely used in business and government."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Kyrgyz cuisine is heavily influenced by nomadic traditions, featuring meat-based dishes such as beshbarmak, manty, and laghman.",
+      "images": [
+        "../assets/food/beshbarmak.jpg",
+        "../assets/food/manty.jpg",
+        "../assets/food/laghman.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Kyrgyzstan is dominated by the Tian Shan mountain range, with over 90% of its territory covered by mountains. It has cold winters and mild to warm summers depending on altitude."
+    },
+    {
+      "title": "Culture",
+      "content": "Kyrgyz culture emphasizes hospitality, respect for elders, and nomadic traditions. Yurts, horse culture, and epic storytelling such as the Epic of Manas are central cultural elements."
+    },
+    {
+      "title": "Tourism",
+      "content": "Popular tourist attractions include Issyk-Kul Lake, Ala Archa National Park, Song-Kul Lake, and traditional yurt stays."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "The Epic of Manas, a traditional Kyrgyz poem, is one of the longest epic poems in the world."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "9th century",
+      "event": "Early Kyrgyz tribes established a powerful khaganate in Central Asia.",
+      "image": "../assets/history/early-kyrgyz.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kyrgyz_people"
+    },
+    {
+      "year": "13th century",
+      "event": "The region came under the control of the Mongol Empire.",
+      "image": "../assets/history/mongol-central-asia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Mongol_Empire"
+    },
+    {
+      "year": "19th century",
+      "event": "Kyrgyz territories were gradually incorporated into the Russian Empire.",
+      "image": "../assets/history/russian-empire.jpg",
+      "link": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"
+    },
+    {
+      "year": "1936",
+      "event": "Kyrgyzstan became the Kyrgyz Soviet Socialist Republic within the USSR.",
+      "image": "../assets/history/kyrgyz-ssr.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kirghiz_Soviet_Socialist_Republic"
+    },
+    {
+      "year": "1991",
+      "event": "Kyrgyzstan declared independence following the dissolution of the Soviet Union.",
+      "image": "../assets/history/independence-kyrgyzstan.jpg",
+      "link": "https://en.wikipedia.org/wiki/Kyrgyzstan"
+    },
+    {
+      "year": "2005",
+      "event": "The Tulip Revolution led to political reforms and leadership change.",
+      "image": "../assets/history/tulip-revolution.jpg",
+      "link": "https://en.wikipedia.org/wiki/Tulip_Revolution"
+    }
+  ]
+}
