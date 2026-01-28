@@ -1,0 +1,82 @@
+{
+  "name": "Laos",
+  "flag": "la",
+  "image": "https://images.unsplash.com/photo-1540615207992-0d6f1e82c3f6",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Laos, officially the Lao People’s Democratic Republic, is a landlocked country in Southeast Asia. It is known for its mountainous terrain, rivers, Buddhist culture, and relaxed way of life."
+    },
+    {
+      "title": "Capital City",
+      "content": "Vientiane is the capital and largest city of Laos. It serves as the country’s political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Laos is the Lao kip (LAK)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Lao. English is increasingly spoken in tourism areas, along with some French influence from colonial times."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Lao cuisine is known for its fresh herbs and bold flavors, with popular dishes such as larb, sticky rice (khao niao), and tam mak hoong (papaya salad).",
+      "images": [
+        "../assets/food/larb.jpg",
+        "../assets/food/sticky-rice.jpg",
+        "../assets/food/papaya-salad.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Laos is mostly mountainous and forested, with the Mekong River running along much of its western border. It has a tropical monsoon climate."
+    },
+    {
+      "title": "Culture",
+      "content": "Lao culture is deeply influenced by Theravada Buddhism, with strong values placed on respect, community, and traditional festivals such as Boun Pi Mai (Lao New Year)."
+    },
+    {
+      "title": "Tourism",
+      "content": "Popular tourist attractions include Luang Prabang, Kuang Si Falls, Vang Vieng, and the Plain of Jars."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Laos is the only landlocked country in Southeast Asia."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "14th century",
+      "event": "The Kingdom of Lan Xang was founded, becoming one of the most powerful kingdoms in Southeast Asia.",
+      "image": "../assets/history/lan-xang.jpg",
+      "link": "https://en.wikipedia.org/wiki/Lan_Xang"
+    },
+    {
+      "year": "1707",
+      "event": "Lan Xang split into smaller kingdoms, weakening the region.",
+      "image": "../assets/history/lan-xang-split.jpg",
+      "link": "https://en.wikipedia.org/wiki/Lan_Xang"
+    },
+    {
+      "year": "1893",
+      "event": "Laos became part of French Indochina under colonial rule.",
+      "image": "../assets/history/french-indochina.jpg",
+      "link": "https://en.wikipedia.org/wiki/French_Indochina"
+    },
+    {
+      "year": "1953",
+      "event": "Laos gained independence from France.",
+      "image": "../assets/history/laos-independence.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Laos"
+    },
+    {
+      "year": "1975",
+      "event": "The Lao People’s Democratic Republic was established.",
+      "image": "../assets/history/lao-pdr.jpg",
+      "link": "https://en.wikipedia.org/wiki/Laos"
+    }
+  ]
+}
