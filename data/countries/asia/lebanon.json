@@ -1,0 +1,88 @@
+{
+  "name": "Lebanon",
+  "flag": "lb",
+  "image": "https://images.unsplash.com/photo-1603724493715-7b4b7d3d6e88",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Lebanon is a country in Western Asia located along the eastern coast of the Mediterranean Sea. It is known for its rich history, cultural diversity, and influence on art, food, and trade in the region."
+    },
+    {
+      "title": "Capital City",
+      "content": "Beirut is the capital and largest city of Lebanon. It is often called the cultural and economic hub of the country."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Lebanon is the Lebanese pound (LBP)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Arabic. French and English are also widely spoken, especially in education and business."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Lebanese cuisine is famous worldwide for its fresh ingredients and balanced flavors, with popular dishes such as hummus, tabbouleh, kibbeh, and falafel.",
+      "images": [
+        "../assets/food/hummus.jpg",
+        "../assets/food/tabbouleh.jpg",
+        "../assets/food/kibbeh.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Lebanon has a diverse geography that includes a Mediterranean coastline, fertile valleys, and mountain ranges such as Mount Lebanon and the Anti-Lebanon Mountains."
+    },
+    {
+      "title": "Culture",
+      "content": "Lebanese culture is shaped by a mix of Arab, Mediterranean, and Western influences, with strong traditions in music, literature, hospitality, and family life."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourist attractions include the ancient ruins of Baalbek, the Jeita Grotto, the city of Byblos, and Beirut’s historic neighborhoods."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Lebanon is home to some of the oldest continuously inhabited cities in the world, including Byblos."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "3000 BCE",
+      "event": "The Phoenicians established major trading cities along the Lebanese coast.",
+      "image": "../assets/history/phoenicians.jpg",
+      "link": "https://en.wikipedia.org/wiki/Phoenicia"
+    },
+    {
+      "year": "64 BCE",
+      "event": "Lebanon became part of the Roman Empire, leading to major architectural development.",
+      "image": "../assets/history/roman-baalbek.jpg",
+      "link": "https://en.wikipedia.org/wiki/Baalbek"
+    },
+    {
+      "year": "1516",
+      "event": "The region came under Ottoman rule for about four centuries.",
+      "image": "../assets/history/ottoman-lebanon.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Lebanon"
+    },
+    {
+      "year": "1920",
+      "event": "Greater Lebanon was established under French mandate after World War I.",
+      "image": "../assets/history/french-mandate.jpg",
+      "link": "https://en.wikipedia.org/wiki/French_Mandate_for_Syria_and_the_Lebanon"
+    },
+    {
+      "year": "1943",
+      "event": "Lebanon gained independence from France.",
+      "image": "../assets/history/lebanon-independence.jpg",
+      "link": "https://en.wikipedia.org/wiki/Lebanon"
+    },
+    {
+      "year": "1975–1990",
+      "event": "Lebanon experienced a prolonged civil war that deeply affected the country.",
+      "image": "../assets/history/lebanese-civil-war.jpg",
+      "link": "https://en.wikipedia.org/wiki/Lebanese_Civil_War"
+    }
+  ]
+}
