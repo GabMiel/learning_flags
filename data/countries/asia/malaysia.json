@@ -1,0 +1,88 @@
+{
+  "name": "Malaysia",
+  "flag": "my",
+  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "Malaysia is a Southeast Asian country known for its cultural diversity, modern cities, tropical rainforests, and long coastlines. It is split into two main regions: Peninsular Malaysia and East Malaysia on the island of Borneo."
+    },
+    {
+      "title": "Capital City",
+      "content": "Kuala Lumpur is the capital city of Malaysia and its main economic and cultural center. Putrajaya serves as the federal administrative capital."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of Malaysia is the Malaysian ringgit (MYR)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Malay (Bahasa Malaysia). English, Chinese, and Tamil are also widely spoken."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Malaysian cuisine is influenced by Malay, Chinese, and Indian cultures, with famous dishes such as nasi lemak, satay, laksa, and roti canai.",
+      "images": [
+        "../assets/food/nasi-lemak.jpg",
+        "../assets/food/satay.jpg",
+        "../assets/food/laksa.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "Malaysia features tropical rainforests, mountains, rivers, and coastal plains. It is one of the world’s most biodiverse countries."
+    },
+    {
+      "title": "Culture",
+      "content": "Malaysian culture emphasizes harmony among different ethnic groups, respect for traditions, and celebration of festivals such as Hari Raya, Chinese New Year, and Deepavali."
+    },
+    {
+      "title": "Tourism",
+      "content": "Popular tourist destinations include the Petronas Twin Towers, Langkawi Island, Mount Kinabalu, Penang, and historic Malacca."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "Malaysia is home to one of the world’s tallest twin towers—the Petronas Twin Towers."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "1st century",
+      "event": "Early Malay kingdoms emerged, influenced by Indian trade and culture.",
+      "image": "../assets/history/early-malay.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_Malaysia"
+    },
+    {
+      "year": "1400",
+      "event": "The Malacca Sultanate was founded, becoming a major regional trading power.",
+      "image": "../assets/history/malacca-sultanate.jpg",
+      "link": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+    },
+    {
+      "year": "1511",
+      "event": "Malacca was captured by the Portuguese, beginning European colonial influence.",
+      "image": "../assets/history/portuguese-malacca.jpg",
+      "link": "https://en.wikipedia.org/wiki/Portuguese_Malacca"
+    },
+    {
+      "year": "1826",
+      "event": "British control expanded through the Straits Settlements.",
+      "image": "../assets/history/british-malaya.jpg",
+      "link": "https://en.wikipedia.org/wiki/British_Malaya"
+    },
+    {
+      "year": "1957",
+      "event": "Malaya gained independence from British rule.",
+      "image": "../assets/history/malaya-independence.jpg",
+      "link": "https://en.wikipedia.org/wiki/Independence_of_Malaya"
+    },
+    {
+      "year": "1963",
+      "event": "Malaysia was formed with the inclusion of Sabah and Sarawak.",
+      "image": "../assets/history/formation-malaysia.jpg",
+      "link": "https://en.wikipedia.org/wiki/Malaysia"
+    }
+  ]
+}
