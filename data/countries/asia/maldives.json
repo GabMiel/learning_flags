@@ -1,0 +1,88 @@
+{
+  "name": "Maldives",
+  "flag": "mv",
+  "image": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a",
+
+  "sections": [
+    {
+      "title": "Overview",
+      "content": "The Maldives is a small island nation in South Asia, located in the Indian Ocean. It is famous for its crystal-clear waters, coral reefs, luxury resorts, and low-lying atolls."
+    },
+    {
+      "title": "Capital City",
+      "content": "Malé is the capital and most populous city of the Maldives, serving as the political, economic, and cultural center."
+    },
+    {
+      "title": "Currency",
+      "content": "The official currency of the Maldives is the Maldivian rufiyaa (MVR)."
+    },
+    {
+      "title": "Language",
+      "content": "The official language is Dhivehi. English is widely used in tourism and business."
+    },
+    {
+      "title": "Traditional Food",
+      "content": "Maldivian cuisine is heavily based on seafood, coconut, and rice, with popular dishes such as mas huni, garudhiya, and fish curry.",
+      "images": [
+        "../assets/food/mas-huni.jpg",
+        "../assets/food/garudhiya.jpg",
+        "../assets/food/fish-curry.jpg"
+      ]
+    },
+    {
+      "title": "Geography",
+      "content": "The Maldives consists of over 1,000 coral islands grouped into 26 atolls, making it one of the flattest and lowest countries in the world."
+    },
+    {
+      "title": "Culture",
+      "content": "Maldivian culture is influenced by South Asian, Arab, and African traditions, with strong emphasis on Islam, community, and maritime life."
+    },
+    {
+      "title": "Tourism",
+      "content": "Tourism is the backbone of the Maldivian economy, with activities such as snorkeling, diving, island hopping, and luxury resort stays."
+    },
+    {
+      "title": "Fun Fact",
+      "content": "The Maldives is the lowest country in the world, with an average ground level of about 1.5 meters above sea level."
+    }
+  ],
+
+  "history": [
+    {
+      "year": "5th century BCE",
+      "event": "Early settlers arrived from the Indian subcontinent and Sri Lanka.",
+      "image": "../assets/history/early-maldives.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_the_Maldives"
+    },
+    {
+      "year": "1153",
+      "event": "The Maldives converted to Islam, shaping its national identity.",
+      "image": "../assets/history/islam-maldives.jpg",
+      "link": "https://en.wikipedia.org/wiki/Islam_in_the_Maldives"
+    },
+    {
+      "year": "1558",
+      "event": "The Portuguese briefly occupied the Maldives.",
+      "image": "../assets/history/portuguese-maldives.jpg",
+      "link": "https://en.wikipedia.org/wiki/History_of_the_Maldives"
+    },
+    {
+      "year": "1887",
+      "event": "The Maldives became a British protectorate.",
+      "image": "../assets/history/british-maldives.jpg",
+      "link": "https://en.wikipedia.org/wiki/British_Maldives"
+    },
+    {
+      "year": "1965",
+      "event": "The Maldives gained independence from the United Kingdom.",
+      "image": "../assets/history/maldives-independence.jpg",
+      "link": "https://en.wikipedia.org/wiki/Maldives"
+    },
+    {
+      "year": "1968",
+      "event": "The Maldives became a republic.",
+      "image": "../assets/history/maldives-republic.jpg",
+      "link": "https://en.wikipedia.org/wiki/Maldives"
+    }
+  ]
+}
